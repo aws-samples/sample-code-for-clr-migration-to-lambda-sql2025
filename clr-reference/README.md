@@ -18,8 +18,10 @@ csc /target:library /out:CsvParser.dll CsvParser.cs
 (The .NET Framework `csc` is typically at
 `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe`.)
 
-
-"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /target:library /out:CsvParser.dll CsvParser.cs
+So you can run this command as well:-
+```bat
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" /target:library /out:CsvParser.dll CsvParser.cs
+```
 
 
 ## Convert the DLL to hex for CREATE ASSEMBLY on RDS
