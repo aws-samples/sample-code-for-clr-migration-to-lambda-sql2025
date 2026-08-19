@@ -44,7 +44,8 @@ Or use the console **Test** tab with `test-event.json` (an API Gateway proxy eve
 
 ## Notes
 
-- `TargetFramework` is `net8.0`. To target another supported Lambda .NET
-  runtime, update the `.csproj` and `aws-lambda-tools-defaults.json`.
+- `TargetFramework` is `net10.0` (the current default .NET runtime on AWS Lambda).
+  To target another supported Lambda .NET runtime, update the `.csproj` and
+  `aws-lambda-tools-defaults.json` (`function-runtime`).
 - Different builds of the same source produce different bytes (MVID/timestamp);
   that is expected and does not affect behavior.
