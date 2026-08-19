@@ -1,0 +1,17 @@
+# .NET build output
+**/bin/
+**/obj/
+*.zip
+
+# Compiled CLR artifacts / generated hex
+*.dll
+*_hex.txt
+
+# IDE
+.vs/
+.idea/
+*.user
+
+# OS
+.DS_Store
+Thumbs.db

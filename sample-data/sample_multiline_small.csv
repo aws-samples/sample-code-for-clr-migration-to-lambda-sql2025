@@ -1,0 +1,10 @@
+CustomerName,Address,City,Notes
+"Acme, Inc.","123 Main St, Suite 5
+Building A
+Floor 12","New York","Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart"
+"Smith & Sons","456 Oak Ave","Los Angeles","Single line note"
+"O""Brien Corp","789 Pine Rd
+P.O. Box 4421","Chicago","Requires PO on file.
+Do not ship without approval."

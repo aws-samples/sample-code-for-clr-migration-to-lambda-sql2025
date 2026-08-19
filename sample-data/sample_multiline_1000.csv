@@ -1,0 +1,2667 @@
+CustomerName,Address,City,State,Notes
+"O""Brien Corp",9 Riverside Dr,New York,IL,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+"Ingram Micro, Inc.","321 Elm St
+Building C
+Floor 8",Chicago,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Patel."
+"O""Brien Corp","123 Main St, Suite 5",Miami,IL,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12
+Building C
+Floor 15",Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+"Ingram Micro, Inc.","123 Main St, Suite 5",San Francisco,FL,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Doe."
+"Northwind Traders, LLC","456 Oak Ave
+Building C
+Floor 4",Seattle,CA,"Standard account, no special terms."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+"Ingram Micro, Inc.","555 Market St, Floor 12",San Francisco,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B
+Building A
+Floor 14",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+"Ingram Micro, Inc.",456 Oak Ave,San Francisco,TX,"Standard account, no special terms."
+"O""Brien Corp","123 Main St, Suite 5",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Reyes."
+Global Trading Co.,"9 Riverside Dr
+Building A
+Floor 12",San Francisco,WA,"Standard account, no special terms."
+Johnson's Hardware,321 Elm St,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+Johnson's Hardware,789 Pine Rd,Miami,WA,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12
+Building B
+Floor 10",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Khan."
+Global Trading Co.,456 Oak Ave,Houston,FL,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+Smith & Sons,"789 Pine Rd
+Building B
+Floor 3",Los Angeles,NY,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Hogan."
+"Northwind Traders, LLC",789 Pine Rd,Houston,IL,"Standard account, no special terms."
+Smith & Sons,"789 Pine Rd
+Building A
+Floor 2",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Stuart."
+"Acme, Inc.","555 Market St, Floor 12",New York,CA,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Stuart."
+"Acme, Inc.","789 Pine Rd
+Building B
+Floor 3",Los Angeles,NY,"Standard account, no special terms."
+"O""Brien Corp","123 Main St, Suite 5",San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Patel."
+George Weston Bakeries,789 Pine Rd,Seattle,NY,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5
+Building B
+Floor 18",San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Hogan."
+George Weston Bakeries,"555 Market St, Floor 12",Seattle,WA,"Standard account, no special terms."
+"Acme, Inc.",789 Pine Rd,Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+"Great Plains Energy, Inc.","789 Pine Rd
+Building B
+Floor 1",Seattle,NY,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Patel."
+"Contoso, Ltd.","123 Main St, Suite 5",New York,TX,"Standard account, no special terms."
+George Weston Bakeries,"789 Pine Rd
+Building A
+Floor 5",Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Smith."
+Johnson's Hardware,321 Elm St,Miami,NY,"Standard account, no special terms."
+Johnson's Hardware,456 Oak Ave,San Francisco,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Patel."
+"Northwind Traders, LLC","9 Riverside Dr
+Building C
+Floor 8",Chicago,TX,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Khan."
+"O""Brien Corp",789 Pine Rd,Chicago,CA,"Standard account, no special terms."
+"Acme, Inc.","456 Oak Ave
+Building B
+Floor 17",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Reyes."
+Johnson's Hardware,"12 Industrial Way, Unit B",Chicago,TX,"Standard account, no special terms."
+"Ingram Micro, Inc.",321 Elm St,San Francisco,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Nelson."
+Johnson's Hardware,"321 Elm St
+Building B
+Floor 15",Chicago,NY,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+"Great Plains Energy, Inc.",321 Elm St,Chicago,IL,"Standard account, no special terms."
+"Acme, Inc.","789 Pine Rd
+Building A
+Floor 20",New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+Johnson's Hardware,"12 Industrial Way, Unit B",Miami,IL,"Standard account, no special terms."
+"O""Brien Corp",789 Pine Rd,Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Patel."
+George Weston Bakeries,"123 Main St, Suite 5
+Building A
+Floor 11",Miami,IL,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Khan."
+"Acme, Inc.",9 Riverside Dr,Houston,IL,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12
+Building A
+Floor 12",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+Johnson's Hardware,"555 Market St, Floor 12",Miami,FL,"Standard account, no special terms."
+"O""Brien Corp",456 Oak Ave,Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Smith."
+"Northwind Traders, LLC","555 Market St, Floor 12
+Building A
+Floor 13",San Francisco,FL,"Standard account, no special terms."
+"O""Brien Corp","123 Main St, Suite 5",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"Northwind Traders, LLC","123 Main St, Suite 5",New York,IL,"Standard account, no special terms."
+Smith & Sons,"321 Elm St
+Building B
+Floor 13",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"Acme, Inc.","555 Market St, Floor 12",Miami,FL,"Standard account, no special terms."
+George Weston Bakeries,789 Pine Rd,Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Doe."
+George Weston Bakeries,"9 Riverside Dr
+Building C
+Floor 1",Los Angeles,NY,"Standard account, no special terms."
+"O""Brien Corp","12 Industrial Way, Unit B",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Chen."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Los Angeles,CA,"Standard account, no special terms."
+Smith & Sons,"321 Elm St
+Building C
+Floor 5",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Patel."
+George Weston Bakeries,321 Elm St,Chicago,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Smith."
+Johnson's Hardware,"555 Market St, Floor 12
+Building B
+Floor 8",Miami,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Reyes."
+"Ingram Micro, Inc.",789 Pine Rd,Los Angeles,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.","789 Pine Rd
+Building B
+Floor 11",New York,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Hogan."
+"O""Brien Corp",321 Elm St,Seattle,NY,"Standard account, no special terms."
+George Weston Bakeries,9 Riverside Dr,Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Hogan."
+"O""Brien Corp","9 Riverside Dr
+Building A
+Floor 11",San Francisco,CA,"Standard account, no special terms."
+George Weston Bakeries,321 Elm St,Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Nelson."
+"Northwind Traders, LLC",456 Oak Ave,Los Angeles,TX,"Standard account, no special terms."
+"Northwind Traders, LLC","789 Pine Rd
+Building A
+Floor 1",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Reyes."
+Johnson's Hardware,"123 Main St, Suite 5",Seattle,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+Global Trading Co.,"789 Pine Rd
+Building B
+Floor 13",Houston,CA,"Standard account, no special terms."
+"O""Brien Corp",321 Elm St,New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Hogan."
+"Great Plains Energy, Inc.",321 Elm St,Houston,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12
+Building C
+Floor 5",Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart."
+Johnson's Hardware,456 Oak Ave,New York,IL,"Standard account, no special terms."
+"Contoso, Ltd.",9 Riverside Dr,Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Stuart."
+"Great Plains Energy, Inc.","555 Market St, Floor 12
+Building B
+Floor 11",Chicago,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Miami,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Khan."
+"Northwind Traders, LLC",321 Elm St,Chicago,IL,"Standard account, no special terms."
+Smith & Sons,"456 Oak Ave
+Building C
+Floor 4",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+Global Trading Co.,789 Pine Rd,New York,TX,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+"Acme, Inc.","456 Oak Ave
+Building A
+Floor 9",Houston,TX,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Patel."
+Global Trading Co.,"123 Main St, Suite 5",New York,WA,"Standard account, no special terms."
+"Acme, Inc.","123 Main St, Suite 5
+Building B
+Floor 1",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Chen."
+George Weston Bakeries,"555 Market St, Floor 12",Seattle,TX,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+Johnson's Hardware,"9 Riverside Dr
+Building C
+Floor 6",San Francisco,NY,"Standard account, no special terms."
+Global Trading Co.,"123 Main St, Suite 5",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Stuart."
+"Acme, Inc.",9 Riverside Dr,Seattle,FL,"Standard account, no special terms."
+Johnson's Hardware,"789 Pine Rd
+Building A
+Floor 11",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Smith."
+"Great Plains Energy, Inc.",456 Oak Ave,New York,WA,"Standard account, no special terms."
+"Acme, Inc.",9 Riverside Dr,Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Chen."
+Johnson's Hardware,"123 Main St, Suite 5
+Building C
+Floor 9",San Francisco,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.",321 Elm St,Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Khan."
+Global Trading Co.,"555 Market St, Floor 12",Chicago,TX,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5
+Building C
+Floor 14",Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Reyes."
+"O""Brien Corp",321 Elm St,Chicago,IL,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,San Francisco,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Khan."
+"Acme, Inc.","789 Pine Rd
+Building B
+Floor 19",San Francisco,WA,"Standard account, no special terms."
+"Acme, Inc.",321 Elm St,Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Nelson."
+"Acme, Inc.",789 Pine Rd,Chicago,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.","321 Elm St
+Building A
+Floor 8",Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Doe."
+Smith & Sons,"555 Market St, Floor 12",San Francisco,NY,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12",Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Hogan."
+"O""Brien Corp","789 Pine Rd
+Building B
+Floor 4",San Francisco,FL,"Standard account, no special terms."
+"Northwind Traders, LLC",321 Elm St,Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Patel."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",San Francisco,TX,"Standard account, no special terms."
+Global Trading Co.,"9 Riverside Dr
+Building A
+Floor 7",Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"O""Brien Corp",456 Oak Ave,New York,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.",789 Pine Rd,Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Chen."
+Global Trading Co.,"789 Pine Rd
+Building B
+Floor 3",Seattle,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Nelson."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Seattle,CA,"Standard account, no special terms."
+Smith & Sons,"789 Pine Rd
+Building C
+Floor 18",Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",San Francisco,NY,"Standard account, no special terms."
+"Great Plains Energy, Inc.",321 Elm St,Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Patel."
+Global Trading Co.,"9 Riverside Dr
+Building C
+Floor 13",Seattle,TX,"Standard account, no special terms."
+Johnson's Hardware,"12 Industrial Way, Unit B",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Stuart."
+Global Trading Co.,456 Oak Ave,New York,WA,"Standard account, no special terms."
+Johnson's Hardware,"12 Industrial Way, Unit B
+Building C
+Floor 6",Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Reyes."
+"O""Brien Corp","123 Main St, Suite 5",Houston,WA,"Standard account, no special terms."
+Smith & Sons,"12 Industrial Way, Unit B",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Khan."
+Johnson's Hardware,"123 Main St, Suite 5
+Building C
+Floor 8",Chicago,IL,"Standard account, no special terms."
+Smith & Sons,"555 Market St, Floor 12",San Francisco,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+Johnson's Hardware,"123 Main St, Suite 5",Houston,FL,"Standard account, no special terms."
+"Northwind Traders, LLC","321 Elm St
+Building A
+Floor 19",Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"Great Plains Energy, Inc.",9 Riverside Dr,Houston,CA,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5",Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Stuart."
+George Weston Bakeries,"789 Pine Rd
+Building A
+Floor 13",Chicago,WA,"Standard account, no special terms."
+George Weston Bakeries,"12 Industrial Way, Unit B",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Khan."
+"Acme, Inc.","555 Market St, Floor 12",Miami,WA,"Standard account, no special terms."
+"Northwind Traders, LLC","456 Oak Ave
+Building C
+Floor 18",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Reyes."
+George Weston Bakeries,321 Elm St,San Francisco,FL,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Hogan."
+"Ingram Micro, Inc.","321 Elm St
+Building A
+Floor 12",Houston,TX,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Reyes."
+"Acme, Inc.",9 Riverside Dr,Chicago,FL,"Standard account, no special terms."
+George Weston Bakeries,"9 Riverside Dr
+Building A
+Floor 7",New York,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+George Weston Bakeries,321 Elm St,Seattle,IL,"Standard account, no special terms."
+"O""Brien Corp","12 Industrial Way, Unit B",Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"Ingram Micro, Inc.","555 Market St, Floor 12
+Building C
+Floor 13",Houston,NY,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Smith."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Chicago,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12
+Building B
+Floor 13",Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"Ingram Micro, Inc.",456 Oak Ave,New York,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",789 Pine Rd,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+Global Trading Co.,"321 Elm St
+Building C
+Floor 6",New York,NY,"Standard account, no special terms."
+"Ingram Micro, Inc.",321 Elm St,Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"O""Brien Corp",789 Pine Rd,Los Angeles,TX,"Standard account, no special terms."
+Johnson's Hardware,"9 Riverside Dr
+Building B
+Floor 1",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Chicago,WA,"Standard account, no special terms."
+"Northwind Traders, LLC",321 Elm St,San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B
+Building B
+Floor 2",Houston,FL,"Standard account, no special terms."
+Global Trading Co.,"12 Industrial Way, Unit B",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Reyes."
+"O""Brien Corp",456 Oak Ave,Houston,WA,"Standard account, no special terms."
+"Northwind Traders, LLC","456 Oak Ave
+Building C
+Floor 5",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+"Contoso, Ltd.",9 Riverside Dr,Houston,IL,"Standard account, no special terms."
+Smith & Sons,"12 Industrial Way, Unit B",New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Khan."
+Johnson's Hardware,"789 Pine Rd
+Building B
+Floor 5",Houston,FL,"Standard account, no special terms."
+"Contoso, Ltd.",321 Elm St,San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Doe."
+"Contoso, Ltd.",456 Oak Ave,Miami,IL,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12
+Building A
+Floor 4",San Francisco,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Doe."
+"Contoso, Ltd.",789 Pine Rd,Chicago,FL,"Standard account, no special terms."
+Global Trading Co.,789 Pine Rd,Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"O""Brien Corp","321 Elm St
+Building A
+Floor 18",Houston,FL,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+"Great Plains Energy, Inc.",789 Pine Rd,Houston,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","9 Riverside Dr
+Building C
+Floor 12",Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Chen."
+Johnson's Hardware,9 Riverside Dr,Seattle,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","123 Main St, Suite 5",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Doe."
+"Great Plains Energy, Inc.","555 Market St, Floor 12
+Building C
+Floor 8",New York,IL,"Standard account, no special terms."
+Global Trading Co.,456 Oak Ave,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+Smith & Sons,"12 Industrial Way, Unit B",Seattle,NY,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12
+Building B
+Floor 4",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Nelson."
+George Weston Bakeries,9 Riverside Dr,Seattle,TX,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart."
+"Contoso, Ltd.","789 Pine Rd
+Building B
+Floor 11",Chicago,NY,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Los Angeles,TX,"Standard account, no special terms."
+George Weston Bakeries,"321 Elm St
+Building C
+Floor 17",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Smith."
+"Great Plains Energy, Inc.",321 Elm St,New York,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.",9 Riverside Dr,New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Stuart."
+Smith & Sons,"123 Main St, Suite 5
+Building A
+Floor 17",Houston,NY,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Miami,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+"O""Brien Corp","123 Main St, Suite 5",Houston,NY,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5
+Building B
+Floor 4",Los Angeles,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Reyes."
+"Acme, Inc.",321 Elm St,Miami,FL,"Standard account, no special terms."
+Smith & Sons,321 Elm St,New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Hogan."
+George Weston Bakeries,"555 Market St, Floor 12
+Building C
+Floor 19",Houston,WA,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Great Plains Energy, Inc.",456 Oak Ave,San Francisco,CA,"Standard account, no special terms."
+"Contoso, Ltd.","321 Elm St
+Building C
+Floor 3",Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Nelson."
+"Northwind Traders, LLC",321 Elm St,Seattle,NY,"Standard account, no special terms."
+Smith & Sons,9 Riverside Dr,Miami,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Khan."
+"Ingram Micro, Inc.","456 Oak Ave
+Building B
+Floor 3",Houston,WA,"Standard account, no special terms."
+"Northwind Traders, LLC",456 Oak Ave,Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Hogan."
+Global Trading Co.,"555 Market St, Floor 12",Chicago,FL,"Standard account, no special terms."
+Johnson's Hardware,"555 Market St, Floor 12
+Building A
+Floor 13",Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Doe."
+"Acme, Inc.",456 Oak Ave,Seattle,NY,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"Ingram Micro, Inc.","456 Oak Ave
+Building C
+Floor 19",Miami,NY,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Doe."
+Smith & Sons,"123 Main St, Suite 5",Seattle,CA,"Standard account, no special terms."
+"O""Brien Corp","12 Industrial Way, Unit B
+Building C
+Floor 5",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Nelson."
+George Weston Bakeries,789 Pine Rd,Los Angeles,TX,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+Johnson's Hardware,"555 Market St, Floor 12
+Building A
+Floor 17",Los Angeles,CA,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5",San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Hogan."
+Global Trading Co.,321 Elm St,New York,CA,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B
+Building C
+Floor 13",Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Patel."
+Smith & Sons,9 Riverside Dr,Chicago,FL,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+"Ingram Micro, Inc.","321 Elm St
+Building A
+Floor 8",Miami,WA,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Nelson."
+"O""Brien Corp","555 Market St, Floor 12",Houston,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5
+Building B
+Floor 13",San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+"Northwind Traders, LLC",456 Oak Ave,San Francisco,CA,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Doe."
+"O""Brien Corp","12 Industrial Way, Unit B
+Building C
+Floor 14",Houston,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Reyes."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",Seattle,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B
+Building B
+Floor 6",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Reyes."
+Smith & Sons,789 Pine Rd,Chicago,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Doe."
+"Contoso, Ltd.","123 Main St, Suite 5
+Building B
+Floor 11",Miami,CA,"Standard account, no special terms."
+"Acme, Inc.",456 Oak Ave,Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Khan."
+Smith & Sons,"555 Market St, Floor 12",Seattle,FL,"Standard account, no special terms."
+George Weston Bakeries,"555 Market St, Floor 12
+Building B
+Floor 15",Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Stuart."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",San Francisco,NY,"Standard account, no special terms."
+Global Trading Co.,456 Oak Ave,New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"O""Brien Corp","789 Pine Rd
+Building A
+Floor 15",San Francisco,IL,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Nelson."
+"Great Plains Energy, Inc.",321 Elm St,Miami,WA,"Standard account, no special terms."
+"Ingram Micro, Inc.","789 Pine Rd
+Building B
+Floor 10",Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Patel."
+Global Trading Co.,9 Riverside Dr,Seattle,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Smith."
+"Acme, Inc.","12 Industrial Way, Unit B
+Building B
+Floor 15",Los Angeles,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.",321 Elm St,Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Hogan."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Miami,NY,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12
+Building C
+Floor 13",New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Nelson."
+"Great Plains Energy, Inc.","123 Main St, Suite 5",Los Angeles,TX,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12",Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Doe."
+"Acme, Inc.","555 Market St, Floor 12
+Building C
+Floor 17",Houston,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",321 Elm St,Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Stuart."
+Smith & Sons,"12 Industrial Way, Unit B",San Francisco,CA,"Standard account, no special terms."
+"O""Brien Corp","123 Main St, Suite 5
+Building B
+Floor 3",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Doe."
+"Great Plains Energy, Inc.",456 Oak Ave,Los Angeles,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+"O""Brien Corp","123 Main St, Suite 5
+Building A
+Floor 13",Miami,IL,"Standard account, no special terms."
+George Weston Bakeries,9 Riverside Dr,New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Chen."
+Johnson's Hardware,"555 Market St, Floor 12",Seattle,TX,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B
+Building C
+Floor 16",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Doe."
+"O""Brien Corp","555 Market St, Floor 12",Houston,WA,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+Johnson's Hardware,"123 Main St, Suite 5
+Building B
+Floor 13",Chicago,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.",456 Oak Ave,New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Reyes."
+"Ingram Micro, Inc.","555 Market St, Floor 12",San Francisco,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.","123 Main St, Suite 5
+Building A
+Floor 12",Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Nelson."
+Global Trading Co.,"12 Industrial Way, Unit B",Seattle,NY,"Standard account, no special terms."
+"Great Plains Energy, Inc.",789 Pine Rd,Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+Smith & Sons,"12 Industrial Way, Unit B
+Building A
+Floor 13",New York,TX,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Stuart."
+"Acme, Inc.","123 Main St, Suite 5",Seattle,IL,"Standard account, no special terms."
+Smith & Sons,"9 Riverside Dr
+Building A
+Floor 11",Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+"Contoso, Ltd.",9 Riverside Dr,Houston,WA,"Standard account, no special terms."
+Global Trading Co.,456 Oak Ave,Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Khan."
+Johnson's Hardware,"456 Oak Ave
+Building B
+Floor 7",New York,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+George Weston Bakeries,9 Riverside Dr,New York,CA,"Standard account, no special terms."
+"Contoso, Ltd.","789 Pine Rd
+Building C
+Floor 6",Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+"Acme, Inc.","123 Main St, Suite 5",San Francisco,IL,"Standard account, no special terms."
+Smith & Sons,321 Elm St,Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Khan."
+"Northwind Traders, LLC","555 Market St, Floor 12
+Building B
+Floor 5",New York,NY,"Standard account, no special terms."
+Smith & Sons,789 Pine Rd,Los Angeles,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+George Weston Bakeries,"123 Main St, Suite 5",Seattle,NY,"Standard account, no special terms."
+"Acme, Inc.","9 Riverside Dr
+Building A
+Floor 9",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Chen."
+Global Trading Co.,"12 Industrial Way, Unit B",Houston,NY,"Standard account, no special terms."
+"Acme, Inc.",9 Riverside Dr,New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+"Northwind Traders, LLC","555 Market St, Floor 12
+Building C
+Floor 14",San Francisco,NY,"Standard account, no special terms."
+"Contoso, Ltd.",456 Oak Ave,Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Chen."
+"Acme, Inc.","555 Market St, Floor 12",Seattle,WA,"Standard account, no special terms."
+"Acme, Inc.","789 Pine Rd
+Building B
+Floor 8",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Khan."
+"Acme, Inc.",456 Oak Ave,New York,TX,"Standard account, no special terms."
+"Acme, Inc.",321 Elm St,Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+Smith & Sons,"555 Market St, Floor 12
+Building C
+Floor 17",Miami,IL,"Standard account, no special terms."
+George Weston Bakeries,789 Pine Rd,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+"Contoso, Ltd.",321 Elm St,Chicago,NY,"Standard account, no special terms."
+Johnson's Hardware,"9 Riverside Dr
+Building C
+Floor 5",Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Doe."
+Johnson's Hardware,"12 Industrial Way, Unit B",Chicago,TX,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Stuart."
+Johnson's Hardware,"555 Market St, Floor 12
+Building C
+Floor 6",Miami,NY,"Standard account, no special terms."
+"O""Brien Corp",321 Elm St,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Hogan."
+"Northwind Traders, LLC",789 Pine Rd,San Francisco,NY,"Standard account, no special terms."
+"Ingram Micro, Inc.","9 Riverside Dr
+Building C
+Floor 6",Miami,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+"Acme, Inc.",456 Oak Ave,Houston,NY,"Standard account, no special terms."
+George Weston Bakeries,321 Elm St,Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Hogan."
+Johnson's Hardware,"789 Pine Rd
+Building C
+Floor 3",San Francisco,NY,"Standard account, no special terms."
+Johnson's Hardware,"555 Market St, Floor 12",Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Reyes."
+"Great Plains Energy, Inc.",456 Oak Ave,Miami,TX,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12
+Building A
+Floor 15",San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"Acme, Inc.","12 Industrial Way, Unit B",Chicago,FL,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+George Weston Bakeries,"123 Main St, Suite 5
+Building C
+Floor 18",Seattle,WA,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Reyes."
+Smith & Sons,"12 Industrial Way, Unit B",Seattle,WA,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5
+Building B
+Floor 2",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Khan."
+Smith & Sons,456 Oak Ave,New York,NY,"Standard account, no special terms."
+Global Trading Co.,"123 Main St, Suite 5",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Stuart."
+"Great Plains Energy, Inc.","456 Oak Ave
+Building B
+Floor 8",New York,FL,"Standard account, no special terms."
+"Acme, Inc.",456 Oak Ave,Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Stuart."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",Chicago,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.","789 Pine Rd
+Building B
+Floor 15",Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",New York,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",456 Oak Ave,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Smith."
+George Weston Bakeries,"456 Oak Ave
+Building C
+Floor 12",New York,CA,"Standard account, no special terms."
+"Northwind Traders, LLC",789 Pine Rd,New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+George Weston Bakeries,"555 Market St, Floor 12",Seattle,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.","9 Riverside Dr
+Building B
+Floor 4",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Patel."
+George Weston Bakeries,456 Oak Ave,Houston,CA,"Standard account, no special terms."
+"Acme, Inc.",9 Riverside Dr,Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Hogan."
+Smith & Sons,"9 Riverside Dr
+Building C
+Floor 17",San Francisco,NY,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Nelson."
+Global Trading Co.,"555 Market St, Floor 12",Los Angeles,TX,"Standard account, no special terms."
+Global Trading Co.,"123 Main St, Suite 5
+Building C
+Floor 13",Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"Contoso, Ltd.","555 Market St, Floor 12",Seattle,FL,"Standard account, no special terms."
+"Contoso, Ltd.",9 Riverside Dr,Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Contoso, Ltd.","555 Market St, Floor 12
+Building B
+Floor 3",Miami,WA,"Standard account, no special terms."
+"Acme, Inc.",789 Pine Rd,San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Stuart."
+"Acme, Inc.","555 Market St, Floor 12",Miami,NY,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5
+Building C
+Floor 10",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Reyes."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",Seattle,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Stuart."
+Global Trading Co.,"123 Main St, Suite 5
+Building C
+Floor 6",Houston,TX,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Patel."
+"Acme, Inc.","555 Market St, Floor 12",Houston,FL,"Standard account, no special terms."
+George Weston Bakeries,"321 Elm St
+Building B
+Floor 10",Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Khan."
+"Northwind Traders, LLC","555 Market St, Floor 12",Miami,IL,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Doe."
+George Weston Bakeries,"9 Riverside Dr
+Building A
+Floor 17",Miami,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+"Acme, Inc.",9 Riverside Dr,Houston,CA,"Standard account, no special terms."
+"Contoso, Ltd.","456 Oak Ave
+Building A
+Floor 17",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Khan."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",Houston,WA,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12",Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+Smith & Sons,"555 Market St, Floor 12
+Building A
+Floor 18",Chicago,NY,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart."
+"O""Brien Corp",456 Oak Ave,Seattle,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","9 Riverside Dr
+Building A
+Floor 6",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Patel."
+"Northwind Traders, LLC","123 Main St, Suite 5",Chicago,NY,"Standard account, no special terms."
+Johnson's Hardware,9 Riverside Dr,Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+"O""Brien Corp","321 Elm St
+Building C
+Floor 15",Chicago,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Khan."
+George Weston Bakeries,321 Elm St,Seattle,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5
+Building C
+Floor 19",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+"Contoso, Ltd.",789 Pine Rd,Miami,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",456 Oak Ave,Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Hogan."
+Global Trading Co.,"321 Elm St
+Building B
+Floor 10",Miami,CA,"Standard account, no special terms."
+Global Trading Co.,321 Elm St,Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+Global Trading Co.,789 Pine Rd,Chicago,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","789 Pine Rd
+Building A
+Floor 2",Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Khan."
+Global Trading Co.,789 Pine Rd,San Francisco,NY,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Nelson."
+"Ingram Micro, Inc.","9 Riverside Dr
+Building A
+Floor 12",Houston,IL,"Standard account, no special terms."
+Smith & Sons,"12 Industrial Way, Unit B",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Patel."
+George Weston Bakeries,9 Riverside Dr,Chicago,WA,"Standard account, no special terms."
+"O""Brien Corp","9 Riverside Dr
+Building B
+Floor 8",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Smith."
+"Acme, Inc.","123 Main St, Suite 5",Chicago,WA,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Chen."
+Smith & Sons,"789 Pine Rd
+Building B
+Floor 6",Houston,IL,"Standard account, no special terms."
+Smith & Sons,789 Pine Rd,Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Nelson."
+Johnson's Hardware,456 Oak Ave,Chicago,NY,"Standard account, no special terms."
+Smith & Sons,"555 Market St, Floor 12
+Building C
+Floor 20",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Nelson."
+"O""Brien Corp","123 Main St, Suite 5",San Francisco,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Hogan."
+"Contoso, Ltd.","9 Riverside Dr
+Building B
+Floor 16",Seattle,FL,"Standard account, no special terms."
+"Contoso, Ltd.",9 Riverside Dr,Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+"Ingram Micro, Inc.",321 Elm St,Seattle,TX,"Standard account, no special terms."
+Smith & Sons,"321 Elm St
+Building B
+Floor 20",San Francisco,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Chen."
+George Weston Bakeries,"123 Main St, Suite 5",Chicago,CA,"Standard account, no special terms."
+Global Trading Co.,"123 Main St, Suite 5",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+Global Trading Co.,"789 Pine Rd
+Building C
+Floor 14",Miami,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.",456 Oak Ave,Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Nelson."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",Los Angeles,FL,"Standard account, no special terms."
+Smith & Sons,"9 Riverside Dr
+Building C
+Floor 15",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Chen."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Chicago,NY,"Standard account, no special terms."
+Smith & Sons,456 Oak Ave,Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Doe."
+"Ingram Micro, Inc.","9 Riverside Dr
+Building C
+Floor 16",Chicago,TX,"Standard account, no special terms."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Smith."
+Smith & Sons,789 Pine Rd,Los Angeles,TX,"Standard account, no special terms."
+"Contoso, Ltd.","321 Elm St
+Building A
+Floor 20",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Chen."
+"Acme, Inc.","555 Market St, Floor 12",New York,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.",9 Riverside Dr,Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Doe."
+"O""Brien Corp","789 Pine Rd
+Building A
+Floor 4",Houston,FL,"Standard account, no special terms."
+Johnson's Hardware,"12 Industrial Way, Unit B",San Francisco,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+Johnson's Hardware,"123 Main St, Suite 5",Seattle,NY,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5
+Building A
+Floor 15",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Khan."
+Johnson's Hardware,"555 Market St, Floor 12",Miami,TX,"Standard account, no special terms."
+George Weston Bakeries,321 Elm St,Miami,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Hogan."
+"Ingram Micro, Inc.","9 Riverside Dr
+Building A
+Floor 20",Seattle,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.",456 Oak Ave,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Khan."
+"Northwind Traders, LLC","555 Market St, Floor 12",Miami,NY,"Standard account, no special terms."
+George Weston Bakeries,"9 Riverside Dr
+Building C
+Floor 12",New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+Global Trading Co.,"12 Industrial Way, Unit B",Houston,NY,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Hogan."
+Global Trading Co.,"321 Elm St
+Building B
+Floor 8",Miami,NY,"Standard account, no special terms."
+Smith & Sons,9 Riverside Dr,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Stuart."
+"Great Plains Energy, Inc.","123 Main St, Suite 5",San Francisco,WA,"Standard account, no special terms."
+Global Trading Co.,"456 Oak Ave
+Building B
+Floor 18",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Nelson."
+"Acme, Inc.",321 Elm St,Houston,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.",789 Pine Rd,Los Angeles,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Khan."
+George Weston Bakeries,"555 Market St, Floor 12
+Building C
+Floor 16",Miami,CA,"Standard account, no special terms."
+Johnson's Hardware,789 Pine Rd,Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+George Weston Bakeries,321 Elm St,Houston,FL,"Standard account, no special terms."
+George Weston Bakeries,"321 Elm St
+Building B
+Floor 5",Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Chen."
+"Acme, Inc.",9 Riverside Dr,New York,TX,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5",New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Reyes."
+Global Trading Co.,"12 Industrial Way, Unit B
+Building A
+Floor 20",New York,FL,"Standard account, no special terms."
+Global Trading Co.,456 Oak Ave,New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Nelson."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",Miami,WA,"Standard account, no special terms."
+"Northwind Traders, LLC","12 Industrial Way, Unit B
+Building C
+Floor 18",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Reyes."
+"Northwind Traders, LLC",9 Riverside Dr,Los Angeles,NY,"Standard account, no special terms."
+"Contoso, Ltd.",789 Pine Rd,Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Patel."
+Global Trading Co.,"789 Pine Rd
+Building A
+Floor 4",Houston,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.",9 Riverside Dr,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Smith."
+"Contoso, Ltd.",456 Oak Ave,Houston,WA,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12
+Building C
+Floor 12",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Khan."
+Global Trading Co.,"12 Industrial Way, Unit B",Seattle,WA,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"Ingram Micro, Inc.","789 Pine Rd
+Building C
+Floor 18",Miami,IL,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",San Francisco,NY,"Standard account, no special terms."
+George Weston Bakeries,"456 Oak Ave
+Building B
+Floor 12",Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Smith."
+"O""Brien Corp","12 Industrial Way, Unit B",Los Angeles,IL,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Khan."
+Johnson's Hardware,"789 Pine Rd
+Building B
+Floor 17",New York,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.",456 Oak Ave,New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Contoso, Ltd.",456 Oak Ave,San Francisco,WA,"Standard account, no special terms."
+George Weston Bakeries,"321 Elm St
+Building C
+Floor 15",New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Stuart."
+"Great Plains Energy, Inc.",321 Elm St,Los Angeles,NY,"Standard account, no special terms."
+Smith & Sons,"555 Market St, Floor 12",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Khan."
+"Northwind Traders, LLC","12 Industrial Way, Unit B
+Building B
+Floor 20",Houston,FL,"Standard account, no special terms."
+Global Trading Co.,789 Pine Rd,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Stuart."
+"O""Brien Corp",9 Riverside Dr,Houston,FL,"Standard account, no special terms."
+"O""Brien Corp","9 Riverside Dr
+Building B
+Floor 15",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Nelson."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",New York,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Khan."
+George Weston Bakeries,"9 Riverside Dr
+Building A
+Floor 17",Chicago,FL,"Standard account, no special terms."
+"Contoso, Ltd.",321 Elm St,Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Khan."
+Johnson's Hardware,321 Elm St,Chicago,WA,"Standard account, no special terms."
+George Weston Bakeries,"321 Elm St
+Building A
+Floor 20",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"Ingram Micro, Inc.",789 Pine Rd,Miami,TX,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Smith."
+"O""Brien Corp","9 Riverside Dr
+Building C
+Floor 6",Los Angeles,CA,"Standard account, no special terms."
+Smith & Sons,789 Pine Rd,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Chen."
+Johnson's Hardware,"123 Main St, Suite 5",Miami,FL,"Standard account, no special terms."
+Global Trading Co.,"123 Main St, Suite 5
+Building C
+Floor 16",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Patel."
+Global Trading Co.,"555 Market St, Floor 12",Seattle,FL,"Standard account, no special terms."
+"O""Brien Corp",321 Elm St,Miami,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Khan."
+Johnson's Hardware,"789 Pine Rd
+Building A
+Floor 11",San Francisco,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",Miami,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart."
+"O""Brien Corp","555 Market St, Floor 12",Seattle,TX,"Standard account, no special terms."
+"Acme, Inc.","9 Riverside Dr
+Building A
+Floor 8",Miami,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Khan."
+George Weston Bakeries,9 Riverside Dr,Los Angeles,NY,"Standard account, no special terms."
+"Acme, Inc.",9 Riverside Dr,Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Khan."
+Johnson's Hardware,"123 Main St, Suite 5
+Building B
+Floor 17",Chicago,WA,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Nelson."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Chicago,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B
+Building A
+Floor 6",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+Global Trading Co.,9 Riverside Dr,New York,IL,"Standard account, no special terms."
+"Acme, Inc.",9 Riverside Dr,New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Nelson."
+Global Trading Co.,"123 Main St, Suite 5
+Building C
+Floor 7",Miami,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Doe."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Miami,TX,"Standard account, no special terms."
+George Weston Bakeries,"9 Riverside Dr
+Building A
+Floor 8",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Smith."
+Global Trading Co.,789 Pine Rd,Los Angeles,IL,"Standard account, no special terms."
+Smith & Sons,9 Riverside Dr,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Patel."
+Global Trading Co.,"123 Main St, Suite 5
+Building B
+Floor 13",Los Angeles,TX,"Standard account, no special terms."
+Johnson's Hardware,"555 Market St, Floor 12",Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Doe."
+"Northwind Traders, LLC","555 Market St, Floor 12",New York,NY,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5
+Building C
+Floor 6",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"O""Brien Corp","12 Industrial Way, Unit B",New York,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Doe."
+Smith & Sons,"12 Industrial Way, Unit B
+Building B
+Floor 13",Miami,NY,"Standard account, no special terms."
+"Contoso, Ltd.",456 Oak Ave,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Khan."
+"Great Plains Energy, Inc.","123 Main St, Suite 5",Miami,NY,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B
+Building B
+Floor 13",Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Chen."
+Smith & Sons,"12 Industrial Way, Unit B",Chicago,IL,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5",New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Patel."
+"Northwind Traders, LLC","123 Main St, Suite 5
+Building B
+Floor 3",San Francisco,IL,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Nelson."
+"Contoso, Ltd.","555 Market St, Floor 12",New York,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","123 Main St, Suite 5
+Building C
+Floor 4",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Nelson."
+Smith & Sons,456 Oak Ave,Miami,TX,"Standard account, no special terms."
+"Contoso, Ltd.",789 Pine Rd,New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Chen."
+George Weston Bakeries,"321 Elm St
+Building A
+Floor 16",New York,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.",321 Elm St,Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+Smith & Sons,321 Elm St,Houston,FL,"Standard account, no special terms."
+Global Trading Co.,"321 Elm St
+Building A
+Floor 7",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Patel."
+"Acme, Inc.","12 Industrial Way, Unit B",Miami,FL,"Standard account, no special terms."
+George Weston Bakeries,9 Riverside Dr,Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Patel."
+George Weston Bakeries,"123 Main St, Suite 5
+Building C
+Floor 6",Seattle,FL,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Smith."
+George Weston Bakeries,789 Pine Rd,Miami,TX,"Standard account, no special terms."
+"O""Brien Corp","789 Pine Rd
+Building A
+Floor 7",Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+Smith & Sons,"123 Main St, Suite 5",Seattle,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+George Weston Bakeries,"555 Market St, Floor 12
+Building A
+Floor 10",San Francisco,CA,"Standard account, no special terms."
+"O""Brien Corp","12 Industrial Way, Unit B",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Doe."
+Global Trading Co.,"123 Main St, Suite 5",Houston,FL,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12
+Building B
+Floor 10",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Doe."
+Smith & Sons,456 Oak Ave,Miami,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Patel."
+"Acme, Inc.","12 Industrial Way, Unit B
+Building A
+Floor 3",Seattle,FL,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",New York,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Smith."
+"Ingram Micro, Inc.",321 Elm St,Houston,FL,"Standard account, no special terms."
+Johnson's Hardware,"321 Elm St
+Building B
+Floor 18",San Francisco,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Nelson."
+"O""Brien Corp","12 Industrial Way, Unit B",Chicago,WA,"Standard account, no special terms."
+"Acme, Inc.",456 Oak Ave,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Doe."
+Smith & Sons,"555 Market St, Floor 12
+Building B
+Floor 11",Chicago,FL,"Standard account, no special terms."
+Johnson's Hardware,321 Elm St,Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Patel."
+"Acme, Inc.",456 Oak Ave,Miami,FL,"Standard account, no special terms."
+George Weston Bakeries,"456 Oak Ave
+Building C
+Floor 6",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Stuart."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Los Angeles,NY,"Standard account, no special terms."
+"O""Brien Corp",789 Pine Rd,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Smith."
+"Acme, Inc.","789 Pine Rd
+Building A
+Floor 6",Miami,FL,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+"Ingram Micro, Inc.",456 Oak Ave,Chicago,NY,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B
+Building B
+Floor 17",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Chen."
+"Acme, Inc.",9 Riverside Dr,Houston,CA,"Standard account, no special terms."
+"O""Brien Corp",789 Pine Rd,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Smith."
+"Northwind Traders, LLC","9 Riverside Dr
+Building B
+Floor 14",Chicago,FL,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+George Weston Bakeries,9 Riverside Dr,San Francisco,NY,"Standard account, no special terms."
+Global Trading Co.,"12 Industrial Way, Unit B
+Building B
+Floor 6",Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Hogan."
+Smith & Sons,"12 Industrial Way, Unit B",Miami,FL,"Standard account, no special terms."
+"Northwind Traders, LLC",456 Oak Ave,Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Nelson."
+"Ingram Micro, Inc.","555 Market St, Floor 12
+Building B
+Floor 4",Chicago,NY,"Standard account, no special terms."
+George Weston Bakeries,789 Pine Rd,Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+Smith & Sons,"12 Industrial Way, Unit B",Houston,TX,"Standard account, no special terms."
+Johnson's Hardware,"456 Oak Ave
+Building C
+Floor 15",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Patel."
+"Northwind Traders, LLC",9 Riverside Dr,Chicago,FL,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5",Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+"Northwind Traders, LLC","789 Pine Rd
+Building A
+Floor 9",Houston,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.",321 Elm St,Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Houston,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12
+Building A
+Floor 8",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Khan."
+"Contoso, Ltd.",9 Riverside Dr,Houston,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Stuart."
+Global Trading Co.,"321 Elm St
+Building A
+Floor 9",Los Angeles,CA,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+Global Trading Co.,321 Elm St,New York,NY,"Standard account, no special terms."
+"Acme, Inc.","321 Elm St
+Building B
+Floor 2",San Francisco,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Acme, Inc.",9 Riverside Dr,New York,FL,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"Great Plains Energy, Inc.","123 Main St, Suite 5
+Building C
+Floor 2",San Francisco,FL,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Smith."
+"Ingram Micro, Inc.",789 Pine Rd,Seattle,CA,"Standard account, no special terms."
+"O""Brien Corp","789 Pine Rd
+Building A
+Floor 15",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Hogan."
+"Acme, Inc.",9 Riverside Dr,Houston,TX,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Reyes."
+"Great Plains Energy, Inc.","321 Elm St
+Building A
+Floor 5",Miami,TX,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Acme, Inc.","555 Market St, Floor 12",Los Angeles,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.","123 Main St, Suite 5
+Building A
+Floor 5",Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+"Contoso, Ltd.",456 Oak Ave,New York,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.",789 Pine Rd,Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Chen."
+"Northwind Traders, LLC","123 Main St, Suite 5
+Building A
+Floor 7",Houston,TX,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",New York,NY,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12
+Building A
+Floor 3",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Patel."
+"Northwind Traders, LLC",456 Oak Ave,New York,IL,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+"Northwind Traders, LLC","456 Oak Ave
+Building A
+Floor 16",Chicago,NY,"Standard account, no special terms."
+"Acme, Inc.",789 Pine Rd,New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",New York,CA,"Standard account, no special terms."
+"Acme, Inc.","123 Main St, Suite 5
+Building A
+Floor 19",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+"O""Brien Corp","555 Market St, Floor 12",Miami,NY,"Standard account, no special terms."
+"Ingram Micro, Inc.",321 Elm St,San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Stuart."
+"O""Brien Corp","321 Elm St
+Building B
+Floor 17",New York,WA,"Standard account, no special terms."
+Global Trading Co.,"12 Industrial Way, Unit B",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Doe."
+Johnson's Hardware,"12 Industrial Way, Unit B",Seattle,TX,"Standard account, no special terms."
+Johnson's Hardware,"456 Oak Ave
+Building B
+Floor 19",Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Khan."
+"O""Brien Corp",789 Pine Rd,Miami,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5",New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+George Weston Bakeries,"123 Main St, Suite 5
+Building B
+Floor 1",Los Angeles,IL,"Standard account, no special terms."
+"Contoso, Ltd.",9 Riverside Dr,San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Patel."
+"O""Brien Corp","12 Industrial Way, Unit B",Los Angeles,WA,"Standard account, no special terms."
+"Acme, Inc.","321 Elm St
+Building C
+Floor 19",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Doe."
+"O""Brien Corp",789 Pine Rd,Seattle,WA,"Standard account, no special terms."
+"Contoso, Ltd.",789 Pine Rd,Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Smith."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B
+Building C
+Floor 16",Seattle,CA,"Standard account, no special terms."
+George Weston Bakeries,9 Riverside Dr,Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Nelson."
+"Great Plains Energy, Inc.",321 Elm St,Seattle,TX,"Standard account, no special terms."
+Johnson's Hardware,"789 Pine Rd
+Building C
+Floor 14",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+"Great Plains Energy, Inc.","123 Main St, Suite 5",Los Angeles,NY,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Stuart."
+"Acme, Inc.","321 Elm St
+Building C
+Floor 16",San Francisco,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Patel."
+Johnson's Hardware,9 Riverside Dr,Houston,NY,"Standard account, no special terms."
+"Acme, Inc.","9 Riverside Dr
+Building C
+Floor 15",New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Chen."
+George Weston Bakeries,789 Pine Rd,Los Angeles,CA,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Patel."
+"Contoso, Ltd.","555 Market St, Floor 12
+Building A
+Floor 1",New York,WA,"Standard account, no special terms."
+"O""Brien Corp",789 Pine Rd,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Nelson."
+Johnson's Hardware,321 Elm St,Seattle,TX,"Standard account, no special terms."
+"Acme, Inc.","456 Oak Ave
+Building B
+Floor 17",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Stuart."
+Smith & Sons,9 Riverside Dr,Miami,TX,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12",Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+Global Trading Co.,"123 Main St, Suite 5
+Building B
+Floor 16",San Francisco,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",789 Pine Rd,Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Chen."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Houston,FL,"Standard account, no special terms."
+"Acme, Inc.","321 Elm St
+Building C
+Floor 8",Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Doe."
+"O""Brien Corp","123 Main St, Suite 5",Houston,CA,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Chen."
+Johnson's Hardware,"9 Riverside Dr
+Building B
+Floor 2",San Francisco,NY,"Standard account, no special terms."
+"Northwind Traders, LLC",321 Elm St,Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+"O""Brien Corp","123 Main St, Suite 5",Chicago,WA,"Standard account, no special terms."
+"Contoso, Ltd.","321 Elm St
+Building C
+Floor 3",Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Hogan."
+"O""Brien Corp",321 Elm St,San Francisco,NY,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Nelson."
+"O""Brien Corp","123 Main St, Suite 5
+Building A
+Floor 13",Los Angeles,NY,"Standard account, no special terms."
+Johnson's Hardware,456 Oak Ave,Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Stuart."
+"Great Plains Energy, Inc.",789 Pine Rd,Miami,TX,"Standard account, no special terms."
+Johnson's Hardware,"9 Riverside Dr
+Building B
+Floor 7",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Hogan."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Houston,TX,"Standard account, no special terms."
+George Weston Bakeries,"555 Market St, Floor 12",Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+Johnson's Hardware,"9 Riverside Dr
+Building C
+Floor 18",Houston,TX,"Standard account, no special terms."
+"Acme, Inc.",321 Elm St,San Francisco,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Smith."
+"Northwind Traders, LLC","123 Main St, Suite 5",Los Angeles,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.","9 Riverside Dr
+Building A
+Floor 7",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+Smith & Sons,"12 Industrial Way, Unit B",Miami,WA,"Standard account, no special terms."
+"O""Brien Corp",789 Pine Rd,Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+"O""Brien Corp","12 Industrial Way, Unit B
+Building B
+Floor 19",Chicago,IL,"Standard account, no special terms."
+George Weston Bakeries,"555 Market St, Floor 12",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Nelson."
+"Acme, Inc.","12 Industrial Way, Unit B",San Francisco,CA,"Standard account, no special terms."
+Smith & Sons,"321 Elm St
+Building C
+Floor 13",Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+"Acme, Inc.","123 Main St, Suite 5",Houston,CA,"Standard account, no special terms."
+"Acme, Inc.",9 Riverside Dr,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Doe."
+Johnson's Hardware,"789 Pine Rd
+Building C
+Floor 3",Chicago,NY,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Doe."
+Johnson's Hardware,789 Pine Rd,Chicago,FL,"Standard account, no special terms."
+"Northwind Traders, LLC","789 Pine Rd
+Building C
+Floor 2",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+"O""Brien Corp","12 Industrial Way, Unit B",Seattle,CA,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+"Contoso, Ltd.","12 Industrial Way, Unit B
+Building B
+Floor 10",San Francisco,WA,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B",New York,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+Smith & Sons,9 Riverside Dr,Chicago,WA,"Standard account, no special terms."
+"Northwind Traders, LLC","12 Industrial Way, Unit B
+Building B
+Floor 14",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Chen."
+"Acme, Inc.",456 Oak Ave,Los Angeles,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",San Francisco,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Doe."
+George Weston Bakeries,"456 Oak Ave
+Building C
+Floor 19",Houston,NY,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Stuart."
+Johnson's Hardware,9 Riverside Dr,Seattle,FL,"Standard account, no special terms."
+"Contoso, Ltd.","456 Oak Ave
+Building A
+Floor 13",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Hogan."
+Smith & Sons,321 Elm St,Houston,IL,"Standard account, no special terms."
+"Great Plains Energy, Inc.","123 Main St, Suite 5",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Patel."
+Smith & Sons,"555 Market St, Floor 12
+Building C
+Floor 4",Miami,FL,"Standard account, no special terms."
+"Great Plains Energy, Inc.",9 Riverside Dr,Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Chen."
+Global Trading Co.,9 Riverside Dr,Chicago,WA,"Standard account, no special terms."
+Global Trading Co.,"9 Riverside Dr
+Building B
+Floor 4",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+"Northwind Traders, LLC","555 Market St, Floor 12",Chicago,TX,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Miami,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+"Northwind Traders, LLC","123 Main St, Suite 5
+Building A
+Floor 16",New York,WA,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Reyes."
+"Ingram Micro, Inc.",456 Oak Ave,San Francisco,NY,"Standard account, no special terms."
+"Contoso, Ltd.","9 Riverside Dr
+Building B
+Floor 8",Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+Smith & Sons,789 Pine Rd,New York,CA,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Smith."
+"Great Plains Energy, Inc.","123 Main St, Suite 5
+Building C
+Floor 18",Houston,NY,"Standard account, no special terms."
+Johnson's Hardware,"555 Market St, Floor 12",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Chen."
+"Ingram Micro, Inc.",9 Riverside Dr,Chicago,NY,"Standard account, no special terms."
+"Contoso, Ltd.","789 Pine Rd
+Building B
+Floor 13",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Nelson."
+George Weston Bakeries,321 Elm St,New York,TX,"Standard account, no special terms."
+"Northwind Traders, LLC",321 Elm St,Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Reyes."
+Johnson's Hardware,"555 Market St, Floor 12
+Building B
+Floor 13",Chicago,TX,"Standard account, no special terms."
+"O""Brien Corp",456 Oak Ave,Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Reyes."
+Global Trading Co.,"555 Market St, Floor 12",Los Angeles,IL,"Standard account, no special terms."
+George Weston Bakeries,"456 Oak Ave
+Building B
+Floor 16",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Nelson."
+Smith & Sons,789 Pine Rd,Miami,NY,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Smith."
+"O""Brien Corp","12 Industrial Way, Unit B
+Building A
+Floor 12",Los Angeles,FL,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+"O""Brien Corp",456 Oak Ave,San Francisco,FL,"Standard account, no special terms."
+George Weston Bakeries,"9 Riverside Dr
+Building C
+Floor 10",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Khan."
+"Contoso, Ltd.",456 Oak Ave,San Francisco,NY,"Standard account, no special terms."
+Smith & Sons,9 Riverside Dr,Miami,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Doe."
+George Weston Bakeries,"9 Riverside Dr
+Building B
+Floor 8",Chicago,TX,"Standard account, no special terms."
+"Contoso, Ltd.",789 Pine Rd,Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+"O""Brien Corp",321 Elm St,Houston,IL,"Standard account, no special terms."
+"O""Brien Corp","123 Main St, Suite 5
+Building A
+Floor 1",Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Hogan."
+"Acme, Inc.",9 Riverside Dr,Houston,WA,"Standard account, no special terms."
+Smith & Sons,"12 Industrial Way, Unit B",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Hogan."
+Johnson's Hardware,"789 Pine Rd
+Building C
+Floor 10",Houston,WA,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Doe."
+"O""Brien Corp",321 Elm St,Los Angeles,FL,"Standard account, no special terms."
+"Contoso, Ltd.","456 Oak Ave
+Building C
+Floor 16",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Smith."
+Smith & Sons,9 Riverside Dr,Miami,IL,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12",Houston,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Reyes."
+Smith & Sons,"9 Riverside Dr
+Building C
+Floor 17",Seattle,FL,"Standard account, no special terms."
+Smith & Sons,"12 Industrial Way, Unit B",Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Smith."
+George Weston Bakeries,"555 Market St, Floor 12",Los Angeles,FL,"Standard account, no special terms."
+"Contoso, Ltd.","9 Riverside Dr
+Building A
+Floor 13",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Doe."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",Los Angeles,NY,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Chen."
+"Northwind Traders, LLC","9 Riverside Dr
+Building A
+Floor 15",Chicago,CA,"Standard account, no special terms."
+Johnson's Hardware,789 Pine Rd,Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Khan."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Los Angeles,NY,"Standard account, no special terms."
+Smith & Sons,"12 Industrial Way, Unit B
+Building B
+Floor 2",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Hogan."
+Johnson's Hardware,"555 Market St, Floor 12",Miami,FL,"Standard account, no special terms."
+"Acme, Inc.",456 Oak Ave,Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Ingram Micro, Inc.","321 Elm St
+Building C
+Floor 18",Chicago,IL,"Standard account, no special terms."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Chen."
+Global Trading Co.,9 Riverside Dr,San Francisco,IL,"Standard account, no special terms."
+"Ingram Micro, Inc.","9 Riverside Dr
+Building C
+Floor 10",Los Angeles,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Doe."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Miami,WA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",456 Oak Ave,Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B
+Building A
+Floor 14",Houston,NY,"Standard account, no special terms."
+"Contoso, Ltd.",456 Oak Ave,Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"Contoso, Ltd.","555 Market St, Floor 12",Houston,FL,"Standard account, no special terms."
+"Contoso, Ltd.","9 Riverside Dr
+Building C
+Floor 12",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Patel."
+"Northwind Traders, LLC",456 Oak Ave,Chicago,NY,"Standard account, no special terms."
+"O""Brien Corp",456 Oak Ave,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Great Plains Energy, Inc.","555 Market St, Floor 12
+Building C
+Floor 15",Seattle,WA,"Standard account, no special terms."
+"Ingram Micro, Inc.",9 Riverside Dr,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Patel."
+George Weston Bakeries,"12 Industrial Way, Unit B",New York,NY,"Standard account, no special terms."
+"O""Brien Corp","123 Main St, Suite 5
+Building A
+Floor 7",New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Reyes."
+"O""Brien Corp",456 Oak Ave,San Francisco,IL,"Standard account, no special terms."
+Johnson's Hardware,"12 Industrial Way, Unit B",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Nelson."
+"Ingram Micro, Inc.","456 Oak Ave
+Building C
+Floor 14",San Francisco,WA,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+"O""Brien Corp","12 Industrial Way, Unit B",San Francisco,CA,"Standard account, no special terms."
+"Contoso, Ltd.","789 Pine Rd
+Building C
+Floor 5",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Houston,FL,"Standard account, no special terms."
+"Contoso, Ltd.",789 Pine Rd,Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Doe."
+Johnson's Hardware,"12 Industrial Way, Unit B
+Building A
+Floor 8",New York,CA,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Hogan."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Chicago,CA,"Standard account, no special terms."
+Smith & Sons,"789 Pine Rd
+Building A
+Floor 20",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Chen."
+"Contoso, Ltd.","123 Main St, Suite 5",Los Angeles,WA,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"Great Plains Energy, Inc.","321 Elm St
+Building B
+Floor 10",San Francisco,WA,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Smith."
+"Contoso, Ltd.",789 Pine Rd,New York,WA,"Standard account, no special terms."
+Johnson's Hardware,"12 Industrial Way, Unit B
+Building C
+Floor 4",Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+"O""Brien Corp",321 Elm St,Los Angeles,CA,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B
+Building B
+Floor 8",Houston,WA,"Standard account, no special terms."
+"O""Brien Corp",456 Oak Ave,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Stuart."
+Smith & Sons,321 Elm St,Los Angeles,FL,"Standard account, no special terms."
+Global Trading Co.,"321 Elm St
+Building A
+Floor 9",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Smith."
+Smith & Sons,321 Elm St,New York,TX,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5",Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+Johnson's Hardware,"12 Industrial Way, Unit B
+Building B
+Floor 20",Seattle,CA,"Standard account, no special terms."
+"Acme, Inc.","123 Main St, Suite 5",Los Angeles,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Smith."
+Johnson's Hardware,321 Elm St,Los Angeles,NY,"Standard account, no special terms."
+"Contoso, Ltd.","456 Oak Ave
+Building A
+Floor 14",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Hogan."
+Smith & Sons,"123 Main St, Suite 5",Chicago,TX,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+Johnson's Hardware,"456 Oak Ave
+Building B
+Floor 4",Los Angeles,TX,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+George Weston Bakeries,789 Pine Rd,Miami,FL,"Standard account, no special terms."
+Johnson's Hardware,"789 Pine Rd
+Building A
+Floor 13",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Khan."
+"Great Plains Energy, Inc.","12 Industrial Way, Unit B",San Francisco,FL,"Standard account, no special terms."
+"Contoso, Ltd.",321 Elm St,Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Reyes."
+Smith & Sons,"321 Elm St
+Building B
+Floor 15",Houston,TX,"Standard account, no special terms."
+"Contoso, Ltd.",9 Riverside Dr,Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Chen."
+"O""Brien Corp","123 Main St, Suite 5",Chicago,IL,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5
+Building A
+Floor 5",Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Khan."
+Smith & Sons,"12 Industrial Way, Unit B",San Francisco,WA,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+George Weston Bakeries,"555 Market St, Floor 12
+Building A
+Floor 2",Los Angeles,CA,"Standard account, no special terms."
+George Weston Bakeries,9 Riverside Dr,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Doe."
+"Great Plains Energy, Inc.","555 Market St, Floor 12",San Francisco,FL,"Standard account, no special terms."
+"Contoso, Ltd.","321 Elm St
+Building A
+Floor 1",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Hogan."
+Johnson's Hardware,"555 Market St, Floor 12",Chicago,NY,"Standard account, no special terms."
+George Weston Bakeries,456 Oak Ave,Miami,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+"O""Brien Corp","456 Oak Ave
+Building C
+Floor 18",Los Angeles,IL,"Standard account, no special terms."
+George Weston Bakeries,"12 Industrial Way, Unit B",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Nelson."
+"Acme, Inc.","555 Market St, Floor 12",Los Angeles,IL,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12
+Building B
+Floor 3",New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Chen."
+"Contoso, Ltd.",9 Riverside Dr,New York,CA,"Standard account, no special terms."
+"Northwind Traders, LLC","555 Market St, Floor 12",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Smith."
+"Acme, Inc.","12 Industrial Way, Unit B
+Building A
+Floor 4",Houston,CA,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B",Los Angeles,WA,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5
+Building C
+Floor 14",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Stuart."
+"Contoso, Ltd.","555 Market St, Floor 12",Chicago,TX,"Standard account, no special terms."
+"O""Brien Corp",789 Pine Rd,Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+Smith & Sons,"456 Oak Ave
+Building A
+Floor 8",Chicago,WA,"Standard account, no special terms."
+Johnson's Hardware,789 Pine Rd,San Francisco,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Nelson."
+Smith & Sons,789 Pine Rd,Seattle,TX,"Standard account, no special terms."
+Johnson's Hardware,"456 Oak Ave
+Building A
+Floor 18",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Nelson."
+Johnson's Hardware,"12 Industrial Way, Unit B",San Francisco,IL,"Standard account, no special terms."
+"Northwind Traders, LLC",789 Pine Rd,Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Doe."
+"Ingram Micro, Inc.","456 Oak Ave
+Building B
+Floor 5",Miami,IL,"Standard account, no special terms."
+George Weston Bakeries,9 Riverside Dr,Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+Smith & Sons,456 Oak Ave,San Francisco,NY,"Standard account, no special terms."
+George Weston Bakeries,"321 Elm St
+Building C
+Floor 17",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Doe."
+"Great Plains Energy, Inc.",9 Riverside Dr,Seattle,CA,"Standard account, no special terms."
+"Great Plains Energy, Inc.",789 Pine Rd,Chicago,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Chen."
+Johnson's Hardware,"12 Industrial Way, Unit B
+Building A
+Floor 8",San Francisco,CA,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Patel."
+"Contoso, Ltd.","123 Main St, Suite 5",San Francisco,CA,"Standard account, no special terms."
+"O""Brien Corp","321 Elm St
+Building B
+Floor 13",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Reyes."
+Johnson's Hardware,456 Oak Ave,Houston,WA,"Standard account, no special terms."
+Global Trading Co.,321 Elm St,New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Doe."
+"O""Brien Corp","123 Main St, Suite 5
+Building B
+Floor 1",San Francisco,TX,"Standard account, no special terms."
+"O""Brien Corp","555 Market St, Floor 12",Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Chen."
+"Northwind Traders, LLC",9 Riverside Dr,New York,TX,"Standard account, no special terms."
+Johnson's Hardware,"12 Industrial Way, Unit B
+Building A
+Floor 14",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Chen."
+"Great Plains Energy, Inc.",321 Elm St,Miami,FL,"Standard account, no special terms."
+"O""Brien Corp","12 Industrial Way, Unit B",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Nelson."
+"Ingram Micro, Inc.","321 Elm St
+Building A
+Floor 12",Seattle,TX,"Standard account, no special terms."
+Johnson's Hardware,321 Elm St,Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Reyes."
+"O""Brien Corp",789 Pine Rd,Miami,NY,"Standard account, no special terms."
+Global Trading Co.,"456 Oak Ave
+Building C
+Floor 13",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Hogan."
+Global Trading Co.,"12 Industrial Way, Unit B",Los Angeles,IL,"Standard account, no special terms."
+"Contoso, Ltd.",321 Elm St,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Hogan."
+"Ingram Micro, Inc.","456 Oak Ave
+Building B
+Floor 3",New York,IL,"Standard account, no special terms."
+"O""Brien Corp","12 Industrial Way, Unit B",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"Great Plains Energy, Inc.",321 Elm St,San Francisco,NY,"Standard account, no special terms."
+"Acme, Inc.","789 Pine Rd
+Building A
+Floor 4",Miami,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Hogan."
+George Weston Bakeries,"555 Market St, Floor 12",Los Angeles,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.",321 Elm St,Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Patel."
+Smith & Sons,"555 Market St, Floor 12
+Building C
+Floor 18",Houston,IL,"Standard account, no special terms."
+"Northwind Traders, LLC",789 Pine Rd,New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Chen."
+Johnson's Hardware,"555 Market St, Floor 12",Los Angeles,TX,"Standard account, no special terms."
+Global Trading Co.,"123 Main St, Suite 5
+Building B
+Floor 8",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Stuart."
+"Contoso, Ltd.",9 Riverside Dr,Houston,NY,"Standard account, no special terms."
+"Great Plains Energy, Inc.",456 Oak Ave,Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Khan."
+Global Trading Co.,"555 Market St, Floor 12
+Building C
+Floor 19",Seattle,IL,"Standard account, no special terms."
+"Northwind Traders, LLC",321 Elm St,New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Doe."
+Johnson's Hardware,9 Riverside Dr,Seattle,FL,"Standard account, no special terms."
+"O""Brien Corp","9 Riverside Dr
+Building A
+Floor 12",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Hogan."
+"Northwind Traders, LLC","123 Main St, Suite 5",San Francisco,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.",456 Oak Ave,Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Doe."
+"Contoso, Ltd.","9 Riverside Dr
+Building A
+Floor 14",Miami,FL,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,Miami,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+"Acme, Inc.",789 Pine Rd,Chicago,WA,"Standard account, no special terms."
+"O""Brien Corp","789 Pine Rd
+Building C
+Floor 5",Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Stuart."
+Smith & Sons,"12 Industrial Way, Unit B",Houston,WA,"Standard account, no special terms."
+"Contoso, Ltd.",789 Pine Rd,Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+George Weston Bakeries,"12 Industrial Way, Unit B
+Building A
+Floor 12",Houston,CA,"Standard account, no special terms."
+Smith & Sons,"555 Market St, Floor 12",San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Patel."
+Johnson's Hardware,456 Oak Ave,Los Angeles,WA,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5
+Building A
+Floor 7",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Smith."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Seattle,TX,"Standard account, no special terms."
+"Contoso, Ltd.","123 Main St, Suite 5",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Reyes."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B
+Building A
+Floor 16",Miami,WA,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Reyes."
+"Acme, Inc.","123 Main St, Suite 5",Los Angeles,WA,"Standard account, no special terms."
+Global Trading Co.,"456 Oak Ave
+Building B
+Floor 3",Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+"Ingram Micro, Inc.",321 Elm St,Chicago,TX,"Standard account, no special terms."
+"Ingram Micro, Inc.",456 Oak Ave,Los Angeles,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Patel."
+"O""Brien Corp","321 Elm St
+Building A
+Floor 6",New York,WA,"Standard account, no special terms."
+Smith & Sons,321 Elm St,Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+"Contoso, Ltd.",9 Riverside Dr,Chicago,TX,"Standard account, no special terms."
+Johnson's Hardware,"555 Market St, Floor 12
+Building C
+Floor 18",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Chen."
+Johnson's Hardware,9 Riverside Dr,New York,WA,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5",New York,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Reyes."
+"Northwind Traders, LLC","789 Pine Rd
+Building A
+Floor 9",Chicago,WA,"Standard account, no special terms."
+Smith & Sons,"123 Main St, Suite 5",Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+"Acme, Inc.","123 Main St, Suite 5",New York,CA,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5
+Building C
+Floor 13",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Reyes."
+"Contoso, Ltd.",789 Pine Rd,Miami,FL,"Standard account, no special terms."
+George Weston Bakeries,"555 Market St, Floor 12",Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+Global Trading Co.,"9 Riverside Dr
+Building B
+Floor 12",Chicago,WA,"Standard account, no special terms."
+Smith & Sons,9 Riverside Dr,Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Chen."
+"O""Brien Corp","123 Main St, Suite 5",Chicago,IL,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12
+Building A
+Floor 3",Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Khan."
+Global Trading Co.,456 Oak Ave,San Francisco,TX,"Standard account, no special terms."
+"O""Brien Corp",321 Elm St,New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Khan."
+"O""Brien Corp","9 Riverside Dr
+Building C
+Floor 11",San Francisco,IL,"Standard account, no special terms."
+"Acme, Inc.",456 Oak Ave,Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Nelson."
+Johnson's Hardware,789 Pine Rd,Miami,IL,"Standard account, no special terms."
+"O""Brien Corp","12 Industrial Way, Unit B
+Building C
+Floor 1",Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+"Contoso, Ltd.",789 Pine Rd,San Francisco,NY,"Standard account, no special terms."
+George Weston Bakeries,789 Pine Rd,New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Reyes."
+"Great Plains Energy, Inc.","9 Riverside Dr
+Building A
+Floor 4",San Francisco,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.",456 Oak Ave,Houston,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Hogan."
+"Great Plains Energy, Inc.",456 Oak Ave,Los Angeles,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5
+Building A
+Floor 2",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Khan."
+"Acme, Inc.",789 Pine Rd,Chicago,TX,"Standard account, no special terms."
+Johnson's Hardware,"555 Market St, Floor 12",New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Reyes."
+"Acme, Inc.","555 Market St, Floor 12
+Building A
+Floor 17",Miami,WA,"Standard account, no special terms."
+"Contoso, Ltd.",456 Oak Ave,Seattle,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Smith."
+"Acme, Inc.",456 Oak Ave,New York,FL,"Standard account, no special terms."
+Global Trading Co.,"123 Main St, Suite 5
+Building B
+Floor 12",Los Angeles,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Patel."
+"Acme, Inc.",9 Riverside Dr,Chicago,FL,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Patel."
+"O""Brien Corp","456 Oak Ave
+Building C
+Floor 17",Chicago,WA,"Standard account, no special terms."
+"Northwind Traders, LLC","12 Industrial Way, Unit B",Los Angeles,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Hogan."
+"Great Plains Energy, Inc.",9 Riverside Dr,Seattle,FL,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12
+Building A
+Floor 12",San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+"O""Brien Corp","12 Industrial Way, Unit B",Miami,TX,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B",Seattle,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+"Ingram Micro, Inc.","789 Pine Rd
+Building A
+Floor 18",Los Angeles,TX,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5",Chicago,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+Johnson's Hardware,9 Riverside Dr,Miami,WA,"Standard account, no special terms."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B
+Building B
+Floor 20",Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+Smith & Sons,789 Pine Rd,Seattle,FL,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+"Northwind Traders, LLC","789 Pine Rd
+Building B
+Floor 11",Miami,FL,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Chicago,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Stuart."
+"Acme, Inc.",321 Elm St,San Francisco,NY,"Standard account, no special terms."
+George Weston Bakeries,"9 Riverside Dr
+Building C
+Floor 16",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart."
+"O""Brien Corp","555 Market St, Floor 12",Chicago,CA,"Standard account, no special terms."
+"O""Brien Corp",321 Elm St,Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Hogan."
+George Weston Bakeries,"123 Main St, Suite 5
+Building B
+Floor 13",Chicago,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.","123 Main St, Suite 5",Miami,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Nelson."
+"Ingram Micro, Inc.",321 Elm St,Houston,WA,"Standard account, no special terms."
+"Contoso, Ltd.","9 Riverside Dr
+Building C
+Floor 3",New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"Great Plains Energy, Inc.",789 Pine Rd,Seattle,TX,"Standard account, no special terms."
+"Great Plains Energy, Inc.",789 Pine Rd,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Nelson."
+"O""Brien Corp","456 Oak Ave
+Building B
+Floor 4",San Francisco,CA,"Standard account, no special terms."
+"Ingram Micro, Inc.",456 Oak Ave,Los Angeles,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Aisha"" Patel."
+Johnson's Hardware,"555 Market St, Floor 12",San Francisco,WA,"Standard account, no special terms."
+"Ingram Micro, Inc.","9 Riverside Dr
+Building A
+Floor 18",San Francisco,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Khan."
+"Great Plains Energy, Inc.",456 Oak Ave,Los Angeles,WA,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+"Contoso, Ltd.","9 Riverside Dr
+Building A
+Floor 12",Houston,TX,"Standard account, no special terms."
+Global Trading Co.,"555 Market St, Floor 12",Chicago,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Doe."
+Smith & Sons,321 Elm St,Houston,NY,"Standard account, no special terms."
+"Acme, Inc.","12 Industrial Way, Unit B
+Building A
+Floor 9",New York,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Stuart."
+"Northwind Traders, LLC",456 Oak Ave,San Francisco,NY,"Standard account, no special terms."
+"Ingram Micro, Inc.",321 Elm St,Houston,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Reyes."
+Johnson's Hardware,"321 Elm St
+Building C
+Floor 18",Seattle,NY,"Standard account, no special terms."
+Smith & Sons,789 Pine Rd,Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Reyes."
+Johnson's Hardware,"123 Main St, Suite 5",Los Angeles,IL,"Standard account, no special terms."
+"Northwind Traders, LLC","321 Elm St
+Building A
+Floor 9",Los Angeles,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Smith."
+George Weston Bakeries,"12 Industrial Way, Unit B",Miami,NY,"Standard account, no special terms."
+"Northwind Traders, LLC",9 Riverside Dr,New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Doe."
+"Acme, Inc.","555 Market St, Floor 12
+Building B
+Floor 18",Seattle,WA,"Standard account, no special terms."
+"Contoso, Ltd.","555 Market St, Floor 12",New York,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+Johnson's Hardware,"123 Main St, Suite 5",Seattle,WA,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12
+Building B
+Floor 1",Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Becky"" Stuart."
+"Contoso, Ltd.",456 Oak Ave,Chicago,WA,"Standard account, no special terms."
+Smith & Sons,456 Oak Ave,New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Doe."
+"Ingram Micro, Inc.","12 Industrial Way, Unit B
+Building C
+Floor 9",Seattle,TX,"Standard account, no special terms."
+George Weston Bakeries,"12 Industrial Way, Unit B",San Francisco,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Nelson."
+"Contoso, Ltd.","123 Main St, Suite 5",San Francisco,IL,"Standard account, no special terms."
+Smith & Sons,"456 Oak Ave
+Building C
+Floor 12",New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Nelson."
+"O""Brien Corp",789 Pine Rd,Chicago,CA,"Standard account, no special terms."
+Global Trading Co.,321 Elm St,Miami,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Chen."
+"Great Plains Energy, Inc.","555 Market St, Floor 12
+Building A
+Floor 12",Miami,WA,"Standard account, no special terms."
+"Acme, Inc.",321 Elm St,San Francisco,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Chen."
+Global Trading Co.,321 Elm St,Miami,CA,"Standard account, no special terms."
+George Weston Bakeries,"123 Main St, Suite 5
+Building C
+Floor 15",Houston,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Stuart."
+"Acme, Inc.","123 Main St, Suite 5",Los Angeles,FL,"Standard account, no special terms."
+"Acme, Inc.",321 Elm St,Seattle,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Carlos"" Stuart."
+"O""Brien Corp","123 Main St, Suite 5
+Building A
+Floor 2",Houston,NY,"Standard account, no special terms."
+"Ingram Micro, Inc.","555 Market St, Floor 12",New York,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Chen."
+"Ingram Micro, Inc.",456 Oak Ave,San Francisco,CA,"Standard account, no special terms."
+"Contoso, Ltd.","321 Elm St
+Building B
+Floor 17",Seattle,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+"Contoso, Ltd.","12 Industrial Way, Unit B",New York,IL,"Standard account, no special terms."
+"O""Brien Corp",9 Riverside Dr,Miami,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Patel."
+"Contoso, Ltd.","456 Oak Ave
+Building B
+Floor 9",Miami,CA,"Standard account, no special terms."
+Johnson's Hardware,9 Riverside Dr,San Francisco,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Patel."
+Smith & Sons,789 Pine Rd,San Francisco,CA,"Standard account, no special terms."
+"O""Brien Corp","789 Pine Rd
+Building A
+Floor 5",Chicago,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Smith."
+"Acme, Inc.","555 Market St, Floor 12",Los Angeles,WA,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B",Houston,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""John"" Smith."
+"Contoso, Ltd.","123 Main St, Suite 5
+Building C
+Floor 19",Chicago,WA,"Standard account, no special terms."
+Johnson's Hardware,"123 Main St, Suite 5",New York,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Reyes."
+"Northwind Traders, LLC",321 Elm St,Miami,NY,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5
+Building A
+Floor 1",Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Hogan."
+Smith & Sons,"555 Market St, Floor 12",Chicago,IL,"Standard account, no special terms."
+"O""Brien Corp",321 Elm St,New York,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Smith."
+Johnson's Hardware,"9 Riverside Dr
+Building B
+Floor 3",Seattle,WA,"Standard account, no special terms."
+"Northwind Traders, LLC",321 Elm St,Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Reyes."
+"O""Brien Corp","123 Main St, Suite 5",Seattle,NY,"Standard account, no special terms."
+George Weston Bakeries,"555 Market St, Floor 12
+Building C
+Floor 7",Houston,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Stuart"" Khan."
+Smith & Sons,789 Pine Rd,Miami,IL,"Standard account, no special terms."
+George Weston Bakeries,321 Elm St,Miami,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Wei"" Hogan."
+Global Trading Co.,"9 Riverside Dr
+Building A
+Floor 10",Houston,NY,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,Seattle,WA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Stuart."
+"Northwind Traders, LLC",456 Oak Ave,Los Angeles,WA,"Standard account, no special terms."
+"Contoso, Ltd.","12 Industrial Way, Unit B
+Building A
+Floor 15",Chicago,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Hogan"" Stuart."
+"O""Brien Corp",321 Elm St,Los Angeles,TX,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,New York,TX,"Preferred vendor.
+Net-30 terms.
+Contact: ""Beena"" Chen."
+"Contoso, Ltd.","555 Market St, Floor 12
+Building C
+Floor 10",Seattle,TX,"Standard account, no special terms."
+Global Trading Co.,9 Riverside Dr,Seattle,CA,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Reyes."
+Johnson's Hardware,789 Pine Rd,Los Angeles,FL,"Standard account, no special terms."
+George Weston Bakeries,"12 Industrial Way, Unit B
+Building A
+Floor 5",Los Angeles,NY,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Stuart."
+"Ingram Micro, Inc.",456 Oak Ave,Houston,FL,"Standard account, no special terms."
+"Acme, Inc.","555 Market St, Floor 12",San Francisco,FL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Meg"" Hogan."
+"Acme, Inc.","456 Oak Ave
+Building A
+Floor 8",Chicago,TX,"Standard account, no special terms."
+"Northwind Traders, LLC","123 Main St, Suite 5",New York,IL,"Preferred vendor.
+Net-30 terms.
+Contact: ""Priya"" Khan."
