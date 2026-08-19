@@ -62,7 +62,8 @@ wrapper: the `[SqlFunction]`/`FillRow` shell becomes a Lambda handler.
 ### 1. Build the Lambda package
 
 ```bash
-cd lambda/CsvParserLambda
+git clone https://github.com/aws-samples/sample-code-for-clr-migration-to-lambda-sql2025
+cd sample-code-for-clr-migration-to-lambda-sql2025/lambda/CsvParserLambda
 dotnet tool install -g Amazon.Lambda.Tools   # one time
 dotnet lambda package -o CsvParserLambda.zip
 ```
