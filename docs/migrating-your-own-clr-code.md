@@ -54,8 +54,8 @@ public class ParseRequest
 
 ## Worked example
 
-Compare [`clr-reference/CsvParser.cs`](../clr-reference/CsvParser.cs) (before) with
-[`lambda/CsvParserLambda/Function.cs`](../lambda/CsvParserLambda/Function.cs) (after).
+Compare [`clr-reference/CsvParser.cs`](../clr-reference/CsvParser.cs) (which is working in SQL 2016) with
+[`lambda/CsvParserLambda/Function.cs`](../lambda/CsvParserLambda/Function.cs) (which will work in SQL Server 2025).
 `SplitLines` and `SplitRespectingQuotes` are identical in both; only the wrapper differs.
 
 ## Public documentation references
