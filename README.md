@@ -97,8 +97,15 @@ See [`lambda/CsvParserLambda/README.md`](lambda/CsvParserLambda/README.md).
 3. **Code** tab → **Upload from** → **.zip file** → upload `CsvParserLambda.zip` → **Save**.
 4. **Runtime settings** → **Edit** → Handler:
    `CsvParserLambda::CsvParserLambda.Function::FunctionHandler`.
-5. **Configuration → General configuration** → Timeout 60s, Memory 512 MB.
-6. Verify on the **Test** tab using [`lambda/CsvParserLambda/test-event.json`](lambda/CsvParserLambda/test-event.json).
+
+   The handler tells the .NET Lambda runtime which method to invoke for each request. When you configure a function in .NET Core, the value of the handler takes the form of assembly::namespace.class-name::method-name
+
+  - CsvParserLambda — the compiled assembly name (from the .csproj)
+  - CsvParserLambda.Function — the namespace and class that contains the handler
+  - FunctionHandler — the method the runtime calls, which receives the request and returns the response
+
+6. **Configuration → General configuration** → Timeout 60s, Memory 512 MB.
+7. Verify on the **Test** tab using [`lambda/CsvParserLambda/test-event.json`](lambda/CsvParserLambda/test-event.json).
 
 ### 3. Create the REST API (console)
 
