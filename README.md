@@ -124,6 +124,13 @@ See [`lambda/CsvParserLambda/README.md`](lambda/CsvParserLambda/README.md).
 2. **Usage plans** → **Create usage plan** `clr-csv-parser-plan` with throttling/quota.
 3. Associate stage `clr-csv-parser-api:prod` and the API key `clr-csv-parser-key`.
 
+Throttling settings. rateLimit is the sustained requests-per-second the API allows; burstLimit is the size of the short spike it
+  will absorb above that rate (token-bucket model). quota caps total calls per period. When burst/rate is exceeded, API Gateway returns
+  HTTP 429 "Too Many Requests" (or "Limit Exceeded" for quota) before the request reaches Lambda. From SQL Server,
+  sp_invoke_external_rest_endpoint receives that 429, so dbo.ParseCSV_Lambda raises an error (e.g., Lambda call failed: HTTP 429)
+  instead of returning a result set. Because each SQL call is one HTTPS round-trip, keep invocations at the file/batch level to stay
+  under these limit
+
 ### 5. Configure and invoke from SQL Server 2025
 
 Run the scripts in [`sql/`](sql/README.md), replacing the placeholders:
