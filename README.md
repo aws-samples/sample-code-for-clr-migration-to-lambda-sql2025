@@ -68,6 +68,26 @@ dotnet tool install -g Amazon.Lambda.Tools   # one time
 dotnet lambda package -o CsvParserLambda.zip
 ```
 
+ What each line does
+
+  1. git clone ... — Downloads the sample repository to your machine so you have the .NET Lambda source code (the replacement for the
+  old CLR assembly).
+  2. cd .../lambda/CsvParserLambda — Moves into the Lambda project folder. This is the .NET project that contains the same CSV parsing
+  logic that used to run as the in-database CLR assembly — now rewritten with a Lambda handler as its entry point.
+  3. dotnet tool install -g Amazon.Lambda.Tools — Installs the AWS Lambda .NET CLI tooling globally (the # one time comment means you
+  only need to do this once per machine, not every build). This adds the dotnet lambda command used in the next step.
+  4. dotnet lambda package -o CsvParserLambda.zip — Compiles the .NET project and bundles the compiled code plus its dependencies into a
+  deployment ZIP (CsvParserLambda.zip). This is the artifact you'll upload to Lambda in Step 2.
+
+  Why this step exists?
+
+  Before you can run the parsing logic in AWS, you have to turn the .NET source into a deployable package. This step produces the .zip
+   that becomes the Lambda function — it's the "build the replacement" stage. The original CLR code lives in the database as a
+  compiled assembly; here we produce the equivalent compiled, deployable unit for Lambda instead.
+
+  In short: clone the code → go to the Lambda project → install the build tool (once) → produce CsvParserLambda.zip, the deployable
+  package you upload to AWS Lambda next.
+
 See [`lambda/CsvParserLambda/README.md`](lambda/CsvParserLambda/README.md).
 
 ### 2. Create the Lambda function (console)
