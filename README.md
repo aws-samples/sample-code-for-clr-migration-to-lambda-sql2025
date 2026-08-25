@@ -21,6 +21,7 @@ integration with `BULK INSERT ... FORMAT='CSV'` handles standard CSV loads. The
 Lambda pattern in this repo is for logic with **no** native equivalent. The
 running example is a CSV parser that handles **multi-line quoted fields**
 (newlines inside quotes) — something `BULK INSERT` cannot do.
+You can modify your existing CLR code accordingly as per the steps mentioned in this repo.
 
 ## Architecture
 
