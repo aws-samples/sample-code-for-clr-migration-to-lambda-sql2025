@@ -1,13 +1,11 @@
 # Migrate SQL CLR assemblies to AWS Lambda on Amazon RDS for SQL Server 2025
 
-Sample code that shows how to replace an unsupported SQL Common Language Runtime
-(CLR) assembly on Amazon RDS for SQL Server with an AWS Lambda function invoked
-natively from Transact-SQL through `sp_invoke_external_rest_endpoint`.
-
 This repository is the hands-on companion to the AWS Database Blog post
 [Addressing CLR assembly deprecation in Amazon RDS for SQL Server](https://aws.amazon.com/blogs/database/addressing-clr-assembly-deprecation-in-amazon-rds-for-sql-server/),
 implementing **Option A** (external REST endpoint invocation) for CLR logic that
-has no native T-SQL equivalent.
+has no native T-SQL equivalent. This repo has some sample code that shows how to replace an unsupported SQL Common Language Runtime
+(CLR) assembly on Amazon RDS for SQL Server with an AWS Lambda function invoked
+natively from Transact-SQL through `sp_invoke_external_rest_endpoint`.
 
 ## Background
 
