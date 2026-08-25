@@ -325,9 +325,9 @@ For a line-by-line explanation of how `dbo.ParseCSV_Lambda` builds the request, 
 Quick test:
 
 ```sql
-DECLARE @csv NVARCHAR(MAX) = N'CustomerName,Address
-"Acme, Inc.","123 Main St
-Building A"';
+DECLARE @csv NVARCHAR(MAX) = N'CustomerName,Address,City
+"AnyCompany, Inc.","123 Any St, Suite 1
+Building A","Anytown"';
 EXEC dbo.ParseCSV_Lambda @csv, N',', 1;
 -- One row; "Acme, Inc." stays a single field and the multi-line address is preserved.
 ```
