@@ -58,6 +58,43 @@ wrapper: the `[SqlFunction]`/`FillRow` shell becomes a Lambda handler.
 
 ## Walkthrough
 
+### (Optional) Reproduce the CLR failure on SQL Server 2016 first
+
+Before building the Lambda replacement, you can optionally reproduce the "before"
+state: a working CLR CSV parser on RDS for SQL Server 2016, and the exact failure
+it throws after an upgrade. This step is reference only and is not required to
+deploy the Lambda solution — skip to Step 1 if you only want to build the fix.
+
+At a high level:
+
+1. **Build the CLR assembly.** Compile the original table-valued function
+   [`clr-reference/CsvParser.cs`](clr-reference/CsvParser.cs) into `CsvParser.dll`,
+   then convert the DLL to a hex string (RDS has no file system access, so
+   `CREATE ASSEMBLY` loads the binary as hex). See
+   [`clr-reference/README.md`](clr-reference/README.md) for the exact `csc` and
+   PowerShell commands.
+
+2. **Deploy on SQL Server 2016 (working state).** On an RDS for SQL Server 2016
+   instance with `clr enabled = 1`, run
+   [`sql/01-clr-setup-2016.sql`](sql/01-clr-setup-2016.sql). Paste your hex string
+   into the `CREATE ASSEMBLY` statement (`PERMISSION_SET = SAFE`), create the
+   `dbo.ParseCSV` function, and confirm it parses a quoted, embedded-comma field
+   correctly (`"Acme, Inc."` stays a single column).
+
+3. **Reproduce the failure after upgrade.** On SQL Server 2017/2019/2022/2025, run
+   [`sql/02-reproduce-failure.sql`](sql/02-reproduce-failure.sql). The same CLR call
+   now fails, because CLR strict security treats the assembly as `UNSAFE` and RDS
+   does not allow the workarounds (no sysadmin to disable strict security, grant
+   `UNSAFE ASSEMBLY`, or sign the assembly):
+
+   ```
+   Msg 6517 ... System.IO.FileLoadException: Could not load file or assembly
+   'CsvParserAssembly ...' (Exception from HRESULT: 0x8013150A)
+   ```
+
+This is the failure the rest of the walkthrough resolves by moving the parsing
+logic to AWS Lambda.
+
 ### 1. Build the Lambda package
 
 ```bash
