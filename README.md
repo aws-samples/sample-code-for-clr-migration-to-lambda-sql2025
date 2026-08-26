@@ -45,6 +45,8 @@ wrapper: the `[SqlFunction]`/`FillRow` shell becomes a Lambda handler.
 ├── sql/                       # Ordered T-SQL scripts (setup, failure, 2025 config, tests, cleanup)
 ├── sample-data/               # CSV test files with multi-line fields
 └── docs/                      # Additional documentation
+    ├── private-rds-networking.md  # NAT gateway setup + VPCe limitation findings
+    └── api-resource-policy.md     # CLI steps to add NAT-IP resource policy
 ```
 
 ## Prerequisites
@@ -378,6 +380,25 @@ EXEC dbo.ParseCSV_Lambda @csv, N',', 1;
   returns `csvData is required` on an HTTP 200 response.
 - **Response path** is `$.result.rows` with proxy integration; for non-proxy it
   is inside an escaped `$.result.body` string. Use `PRINT @raw` to confirm.
+
+## Networking (private-subnet RDS)
+
+If your RDS instance is in a **private subnet** (no public IP), it has no
+outbound internet path by default. `sp_invoke_external_rest_endpoint` resolves
+the API hostname via public DNS and calls it over the internet, so you must add
+a **NAT gateway** and a `0.0.0.0/0` route on the RDS subnets. RDS stays private
+(egress-only). Without this, calls fail with `HRESULT: 0x80072ee7`
+(`NAME_NOT_RESOLVED`).
+
+A **private** API Gateway endpoint (interface VPC endpoint) does **not** work
+with this RDS feature — the managed engine does not resolve to the VPCe and its
+requests do not carry `aws:sourceVpce`, so a private API returns 403. Use a
+regional API and restrict it by the NAT egress IP instead. Full findings and the
+NAT setup: [Networking for private-subnet RDS](docs/private-rds-networking.md).
+
+To lock the regional API down to your NAT Elastic IP (recommended for private
+RDS, and usable for public RDS too), add an API Gateway resource policy:
+[Add a resource policy to restrict the API](docs/api-resource-policy.md).
 
 ## Performance and cost
 
