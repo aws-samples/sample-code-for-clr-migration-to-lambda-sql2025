@@ -33,7 +33,8 @@ GO
 
 -- Verify (embedded comma stays a single field)
 DECLARE @csv NVARCHAR(MAX) = N'CustomerName,Address,City,State,Amount
-"Acme, Inc.","123 Main St, Suite 5","New York","NY","50000.00"';
+"AnyCompany, Inc.","123 Any St, Suite 1
+Building A","Anytown","NY","50000.00"';
 SELECT * FROM dbo.ParseCSV(@csv, N',');
--- Col1 should be: Acme, Inc.
+-- Col1 should be: AnyCompany, Inc.
 GO
