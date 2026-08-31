@@ -7,8 +7,8 @@ so existing stored procedures and ETL jobs that call it do not change — only t
 implementation behind the name moves from an in-process assembly to a Lambda call.
 
 Internally the procedure does four things: build a JSON request, invoke the
-Lambda through API Gateway, check for errors, and materialize the response as a
-result set.
+Lambda through API Gateway (retrying transient failures with exponential
+backoff), check for errors, and materialize the response as a result set.
 
 ## 1. Build the request payload
 
@@ -37,13 +37,46 @@ DECLARE @payload NVARCHAR(MAX) = (
 
 ```sql
 DECLARE @raw NVARCHAR(MAX);
-EXEC sp_invoke_external_rest_endpoint
-    @url        = N'<API_ENDPOINT_URL>',                       -- .../prod/parse
-    @method     = N'POST',
-    @credential = [https://<API_GATEWAY_BASE_URL>/],           -- trailing slash
-    @payload    = @payload,
-    @timeout    = 60,
-    @response   = @raw OUTPUT;
+DECLARE @maxAttempts INT = 4;   -- 1 initial try + 3 retries
+DECLARE @attempt     INT = 1;
+DECLARE @delaySec    INT = 1;   -- backoff seconds, doubles each retry (1s, 2s, 4s)
+DECLARE @httpCode    INT;
+DECLARE @success     NVARCHAR(10);
+
+WHILE @attempt <= @maxAttempts
+BEGIN
+    BEGIN TRY
+        EXEC sp_invoke_external_rest_endpoint
+            @url        = N'<API_ENDPOINT_URL>',                   -- .../prod/parse
+            @method     = N'POST',
+            @credential = [https://<API_GATEWAY_BASE_URL>/],       -- trailing slash
+            @payload    = @payload,
+            @timeout    = 60,
+            @response   = @raw OUTPUT;
+
+        SET @httpCode = TRY_CAST(JSON_VALUE(@raw, '$.response.status.http.code') AS INT);
+        SET @success  = JSON_VALUE(@raw, '$.result.success');
+
+        IF @httpCode = 200 AND (@success IS NULL OR @success <> 'false')
+            BREAK;                                                 -- success
+
+        IF (@httpCode = 429 OR @httpCode >= 500) AND @attempt < @maxAttempts
+        BEGIN
+            WAITFOR DELAY DATEADD(SECOND, @delaySec, '00:00:00');  -- WAITFOR needs a time value
+            SET @delaySec = @delaySec * 2;
+            SET @attempt  = @attempt + 1;
+            CONTINUE;
+        END;
+
+        BREAK;                                                     -- non-transient, or retries exhausted
+    END TRY
+    BEGIN CATCH
+        IF @attempt >= @maxAttempts THROW;                         -- surface the original error
+        WAITFOR DELAY DATEADD(SECOND, @delaySec, '00:00:00');
+        SET @delaySec = @delaySec * 2;
+        SET @attempt  = @attempt + 1;
+    END CATCH;
+END;
 ```
 
 - `sp_invoke_external_rest_endpoint` makes a synchronous HTTPS `POST` to the
@@ -57,16 +90,27 @@ EXEC sp_invoke_external_rest_endpoint
   30 seconds).
 - The full HTTP response — status, headers, and the Lambda's body — is returned
   into `@raw`.
+- **Retries.** `sp_invoke_external_rest_endpoint` does not retry on its own, so
+  the call is wrapped in a bounded loop with exponential backoff (4 attempts;
+  1s → 2s → 4s). It retries **only** on transient conditions — HTTP 429
+  (usage-plan throttling), 5xx (API Gateway / Lambda), and hard invoke failures
+  such as timeouts or network blips (caught in the `CATCH` block). Other 4xx
+  errors are client errors, so the loop stops immediately (fail fast). Retrying
+  is safe here because the parser is a **pure function** — the same CSV always
+  produces the same rows with no side effects, so a retried call is idempotent.
+  `WAITFOR DELAY` holds the session for the backoff, which reinforces this as a
+  batch/file-level pattern rather than a per-row one; if you stage into a temp
+  table, keep the retry loop out of any transaction that holds locks on the
+  target table.
 
 ## 3. Check for errors
 
 ```sql
-DECLARE @httpCode INT      = TRY_CAST(JSON_VALUE(@raw, '$.response.status.http.code') AS INT);
-DECLARE @success  NVARCHAR(10) = JSON_VALUE(@raw, '$.result.success');
+-- After the retry loop, @httpCode and @success hold the result of the last attempt
 IF @httpCode <> 200 OR @success = 'false'
 BEGIN
     DECLARE @err NVARCHAR(4000) = JSON_VALUE(@raw, '$.result.error');
-    RAISERROR('CSV Parser Lambda error (HTTP %d): %s', 16, 1, @httpCode, @err);
+    RAISERROR('CSV Parser Lambda error after %d attempt(s) (HTTP %d): %s', 16, 1, @attempt, @httpCode, @err);
     RETURN;
 END;
 ```
@@ -75,6 +119,9 @@ END;
   `sp_invoke_external_rest_endpoint`.
 - `$.result.success` / `$.result.error` are the application-level flag and
   message returned by the Lambda itself, surfaced to the caller as a clear error.
+- The check runs **after** the retry loop, so the error is raised only once all
+  retry attempts for a transient failure have been exhausted; the message
+  includes the attempt count.
 
 ## 4. Materialize the response as rows
 

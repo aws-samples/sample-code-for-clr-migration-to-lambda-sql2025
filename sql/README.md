@@ -26,3 +26,9 @@ not exist). Replace the remaining placeholders (`<API_ENDPOINT_URL>`,
   `$.result.body` string; `PRINT @raw` to confirm and adjust the path.
 - **`OPENROWSET(BULK ... SINGLE_CLOB)`** — use `SINGLE_CLOB` for UTF-8 files,
   `SINGLE_NCLOB` for UTF-16. Requires `ADMINISTER BULK OPERATIONS`.
+- **No automatic retries** — `sp_invoke_external_rest_endpoint` does not retry.
+  `04-create-procedure.sql` wraps the call in a bounded retry loop with
+  exponential backoff (4 attempts; 1s/2s/4s) that retries only on transient
+  failures — HTTP 429 (usage-plan throttling), 5xx, and hard invoke errors
+  (timeouts / network blips). Other 4xx errors fail fast. Retries are safe
+  because the parser is a pure function (idempotent).
