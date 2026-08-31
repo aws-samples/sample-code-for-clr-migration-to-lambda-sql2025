@@ -11,7 +11,7 @@
                              abc123.execute-api.us-east-1.amazonaws.com
    (credential name must include the trailing slash, matching 03-sql2025-setup.sql)
    ===================================================================== */
-USE ERPDatabase;
+USE DemoDB;
 GO
 
 CREATE OR ALTER PROCEDURE dbo.ParseCSV_Lambda

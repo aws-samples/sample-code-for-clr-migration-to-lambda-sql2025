@@ -4,7 +4,7 @@
      A) inline tests, B) read a real file from S3, C) load a staging
      table, D) measure latency, E) contrast with native BULK INSERT.
    ===================================================================== */
-USE ERPDatabase;
+USE DemoDB;
 GO
 
 /* ---- A) Inline: embedded commas + escaped quotes ---- */
