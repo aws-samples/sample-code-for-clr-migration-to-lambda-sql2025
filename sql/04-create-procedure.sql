@@ -42,6 +42,7 @@ BEGIN
     DECLARE @maxAttempts INT = 4;    -- 1 initial try + 3 retries
     DECLARE @attempt     INT = 1;
     DECLARE @delaySec    INT = 1;    -- backoff seconds, doubles each retry (1s, 2s, 4s)
+    DECLARE @delay       CHAR(8);    -- 'HH:MM:SS' string for WAITFOR DELAY (it rejects INT/TIME)
     DECLARE @httpCode    INT;
     DECLARE @success     NVARCHAR(10);
 
@@ -66,7 +67,8 @@ BEGIN
             -- Transient status (429 rate limit, 5xx): retry with exponential backoff
             IF (@httpCode = 429 OR @httpCode >= 500) AND @attempt < @maxAttempts
             BEGIN
-                WAITFOR DELAY DATEADD(SECOND, @delaySec, '00:00:00');  -- WAITFOR needs a time value
+                SET @delay = CONVERT(CHAR(8), DATEADD(SECOND, @delaySec, '00:00:00'), 108);  -- 'HH:MM:SS'
+                WAITFOR DELAY @delay;
                 SET @delaySec = @delaySec * 2;
                 SET @attempt  = @attempt + 1;
                 CONTINUE;
@@ -79,7 +81,8 @@ BEGIN
             -- Hard failure invoking the endpoint (timeout, network blip). Retry if attempts remain.
             IF @attempt >= @maxAttempts
                 THROW;   -- exhausted retries; surface the original error
-            WAITFOR DELAY DATEADD(SECOND, @delaySec, '00:00:00');
+            SET @delay = CONVERT(CHAR(8), DATEADD(SECOND, @delaySec, '00:00:00'), 108);  -- 'HH:MM:SS'
+            WAITFOR DELAY @delay;
             SET @delaySec = @delaySec * 2;
             SET @attempt  = @attempt + 1;
         END CATCH;
