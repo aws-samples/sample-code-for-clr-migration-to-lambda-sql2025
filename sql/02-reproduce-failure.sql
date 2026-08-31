@@ -7,7 +7,7 @@
 USE DemoDB;
 GO
 
-DECLARE @csv NVARCHAR(MAX) = N'"Acme, Inc.","123 Main St","NY"';
+DECLARE @csv NVARCHAR(MAX) = N'"AnyCompany, Inc.","123 Any St","NY"';
 SELECT * FROM dbo.ParseCSV(@csv, N',');
 GO
 

@@ -32,22 +32,64 @@ BEGIN
         FOR JSON PATH, WITHOUT_ARRAY_WRAPPER
     );
 
+    -- Retry on transient failures. sp_invoke_external_rest_endpoint does NOT
+    -- retry automatically, so we wrap it in a bounded loop with exponential
+    -- backoff. We retry only on HTTP 429 (usage-plan throttling), 5xx, and hard
+    -- invoke failures (timeouts / network blips caught in CATCH). A 4xx other
+    -- than 429 is a client error, so we fail fast. The parser is a pure function
+    -- (same input -> same output, no side effects), so retries are idempotent.
     DECLARE @raw NVARCHAR(MAX);
-    EXEC sp_invoke_external_rest_endpoint
-        @url        = N'<API_ENDPOINT_URL>',
-        @method     = N'POST',
-        @credential = [https://<API_GATEWAY_BASE_URL>/],   -- trailing slash
-        @payload    = @payload,
-        @timeout    = 60,
-        @response   = @raw OUTPUT;
+    DECLARE @maxAttempts INT = 4;    -- 1 initial try + 3 retries
+    DECLARE @attempt     INT = 1;
+    DECLARE @delaySec    INT = 1;    -- backoff seconds, doubles each retry (1s, 2s, 4s)
+    DECLARE @httpCode    INT;
+    DECLARE @success     NVARCHAR(10);
 
-    -- Surface transport + application-level errors
-    DECLARE @httpCode INT = TRY_CAST(JSON_VALUE(@raw, '$.response.status.http.code') AS INT);
-    DECLARE @success  NVARCHAR(10) = JSON_VALUE(@raw, '$.result.success');
+    WHILE @attempt <= @maxAttempts
+    BEGIN
+        BEGIN TRY
+            EXEC sp_invoke_external_rest_endpoint
+                @url        = N'<API_ENDPOINT_URL>',
+                @method     = N'POST',
+                @credential = [https://<API_GATEWAY_BASE_URL>/],   -- trailing slash
+                @payload    = @payload,
+                @timeout    = 60,
+                @response   = @raw OUTPUT;
+
+            SET @httpCode = TRY_CAST(JSON_VALUE(@raw, '$.response.status.http.code') AS INT);
+            SET @success  = JSON_VALUE(@raw, '$.result.success');
+
+            -- Success: stop retrying
+            IF @httpCode = 200 AND (@success IS NULL OR @success <> 'false')
+                BREAK;
+
+            -- Transient status (429 rate limit, 5xx): retry with exponential backoff
+            IF (@httpCode = 429 OR @httpCode >= 500) AND @attempt < @maxAttempts
+            BEGIN
+                WAITFOR DELAY DATEADD(SECOND, @delaySec, '00:00:00');  -- WAITFOR needs a time value
+                SET @delaySec = @delaySec * 2;
+                SET @attempt  = @attempt + 1;
+                CONTINUE;
+            END;
+
+            -- Non-transient error, or retries exhausted: stop and report below
+            BREAK;
+        END TRY
+        BEGIN CATCH
+            -- Hard failure invoking the endpoint (timeout, network blip). Retry if attempts remain.
+            IF @attempt >= @maxAttempts
+                THROW;   -- exhausted retries; surface the original error
+            WAITFOR DELAY DATEADD(SECOND, @delaySec, '00:00:00');
+            SET @delaySec = @delaySec * 2;
+            SET @attempt  = @attempt + 1;
+        END CATCH;
+    END;
+
+    -- Surface transport + application-level errors after the retry loop
     IF @httpCode <> 200 OR @success = 'false'
     BEGIN
         DECLARE @err NVARCHAR(4000) = JSON_VALUE(@raw, '$.result.error');
-        RAISERROR('CSV Parser Lambda error (HTTP %d): %s', 16, 1, @httpCode, @err);
+        RAISERROR('CSV Parser Lambda error after %d attempt(s) (HTTP %d): %s', 16, 1, @attempt, @httpCode, @err);
         RETURN;
     END;
 

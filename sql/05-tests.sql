@@ -9,10 +9,11 @@ GO
 
 /* ---- A) Inline: embedded commas + escaped quotes ---- */
 DECLARE @csv1 NVARCHAR(MAX) = N'CustomerName,Address,City,State,Amount
-"Acme, Inc.","123 Main St, Suite 5","New York","NY","50000.00"
+"AnyCompany, Inc.","123 Any St, Suite 1
+Building A","Anytown","NY","50000.00"
 "O""Brien Corp","789 Pine Rd","Chicago","IL","99999.99"';
 EXEC dbo.ParseCSV_Lambda @csv1, N',', 1;
--- Expected: 2 rows; Col1 = 'Acme, Inc.' and 'O"Brien Corp'
+-- Expected: 2 rows; Col1 = 'AnyCompany, Inc.' and 'O"Brien Corp'
 GO
 
 /* ---- B) Read a real multi-line file downloaded from S3 to D:\S3 ----

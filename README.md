@@ -81,7 +81,7 @@ At a high level:
    [`sql/01-clr-setup-2016.sql`](sql/01-clr-setup-2016.sql). Paste your hex string
    into the `CREATE ASSEMBLY` statement (`PERMISSION_SET = SAFE`), create the
    `dbo.ParseCSV` function, and confirm it parses a quoted, embedded-comma field
-   correctly (`"Acme, Inc."` stays a single column).
+   correctly (`"AnyCompany, Inc."` stays a single column).
 
 3. **Reproduce the failure after upgrade.** On SQL Server 2017/2019/2022/2025, run
    [`sql/02-reproduce-failure.sql`](sql/02-reproduce-failure.sql). The same CLR call
@@ -367,7 +367,7 @@ DECLARE @csv NVARCHAR(MAX) = N'CustomerName,Address,City
 "AnyCompany, Inc.","123 Any St, Suite 1
 Building A","Anytown"';
 EXEC dbo.ParseCSV_Lambda @csv, N',', 1;
--- One row; "Acme, Inc." stays a single field and the multi-line address is preserved.
+-- One row; "AnyCompany, Inc." stays a single field and the multi-line address is preserved.
 ```
 
 ## Common gotchas
