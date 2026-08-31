@@ -1,13 +1,11 @@
 # Migrate SQL CLR assemblies to AWS Lambda on Amazon RDS for SQL Server 2025
 
-Sample code that shows how to replace an unsupported SQL Common Language Runtime
-(CLR) assembly on Amazon RDS for SQL Server with an AWS Lambda function invoked
-natively from Transact-SQL through `sp_invoke_external_rest_endpoint`.
-
 This repository is the hands-on companion to the AWS Database Blog post
 [Addressing CLR assembly deprecation in Amazon RDS for SQL Server](https://aws.amazon.com/blogs/database/addressing-clr-assembly-deprecation-in-amazon-rds-for-sql-server/),
 implementing **Option A** (external REST endpoint invocation) for CLR logic that
-has no native T-SQL equivalent.
+has no native T-SQL equivalent. This repo has some sample code that shows how to replace an unsupported SQL Common Language Runtime
+(CLR) assembly on Amazon RDS for SQL Server with an AWS Lambda function invoked
+natively from Transact-SQL through `sp_invoke_external_rest_endpoint`.
 
 ## Background
 
@@ -23,6 +21,7 @@ integration with `BULK INSERT ... FORMAT='CSV'` handles standard CSV loads. The
 Lambda pattern in this repo is for logic with **no** native equivalent. The
 running example is a CSV parser that handles **multi-line quoted fields**
 (newlines inside quotes) — something `BULK INSERT` cannot do.
+You can modify your existing CLR code accordingly as per the steps mentioned in this repo.
 
 ## Architecture
 
@@ -364,9 +363,9 @@ For a line-by-line explanation of how `dbo.ParseCSV_Lambda` builds the request, 
 Quick test:
 
 ```sql
-DECLARE @csv NVARCHAR(MAX) = N'CustomerName,Address
+DECLARE @csv NVARCHAR(MAX) = N'CustomerName,Address,City
 "AnyCompany, Inc.","123 Any St, Suite 1
-Building A"';
+Building A","Anytown"';
 EXEC dbo.ParseCSV_Lambda @csv, N',', 1;
 -- One row; "AnyCompany, Inc." stays a single field and the multi-line address is preserved.
 ```
