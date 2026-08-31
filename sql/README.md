@@ -1,11 +1,13 @@
 # SQL scripts
 
-Run these in order with SQL Server Management Studio (SSMS). Replace the
-placeholders (`ERPDatabase`, `<API_ENDPOINT_URL>`, `<API_GATEWAY_BASE_URL>`,
-`<YOUR_API_KEY>`, and the CLR hex) with your values.
+Run these in order with SQL Server Management Studio (SSMS). The scripts use a
+database named `DemoDB` (script `00-create-database.sql` creates it if it does
+not exist). Replace the remaining placeholders (`<API_ENDPOINT_URL>`,
+`<API_GATEWAY_BASE_URL>`, `<YOUR_API_KEY>`, and the CLR hex) with your values.
 
 | Script | Runs on | Purpose |
 |--------|---------|---------|
+| `00-create-database.sql` | any | Create the `DemoDB` database if it does not already exist |
 | `01-clr-setup-2016.sql` | RDS SQL Server 2016 | Deploy the CLR CSV parser (the working "before" state) |
 | `02-reproduce-failure.sql` | 2017 / 2019 / 2022 / 2025 | Show the CLR failure after upgrade (HRESULT 0x8013150A) |
 | `03-sql2025-setup.sql` | RDS SQL Server 2025 | Verify the REST endpoint feature; create master key + credential |

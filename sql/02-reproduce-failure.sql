@@ -4,7 +4,7 @@
    the same CLR call fails because CLR strict security treats the
    assembly as UNSAFE and RDS does not allow the workarounds.
    ===================================================================== */
-USE ERPDatabase;
+USE DemoDB;
 GO
 
 DECLARE @csv NVARCHAR(MAX) = N'"Acme, Inc.","123 Main St","NY"';

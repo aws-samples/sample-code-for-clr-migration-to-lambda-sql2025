@@ -9,7 +9,7 @@
      - Compile clr-reference/CsvParser.cs to CsvParser.dll and convert
        to hex (see clr-reference/README.md), then paste the hex below.
    ===================================================================== */
-USE ERPDatabase;   -- replace with your database
+USE DemoDB;   -- replace with your database
 GO
 
 -- Create the assembly from the hex of CsvParser.dll (PERMISSION_SET must be SAFE on RDS)

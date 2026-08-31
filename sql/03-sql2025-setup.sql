@@ -11,7 +11,7 @@
      <API_GATEWAY_BASE_URL>  e.g. abc123.execute-api.us-east-1.amazonaws.com
      <YOUR_API_KEY>          the API key value from API Gateway
    ===================================================================== */
-USE ERPDatabase;
+USE DemoDB;
 GO
 
 -- 1. Verify the feature is on

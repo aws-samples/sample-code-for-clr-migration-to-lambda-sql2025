@@ -2,7 +2,7 @@
    06-cleanup.sql
    Remove the objects created by this sample.
    ===================================================================== */
-USE ERPDatabase;
+USE DemoDB;
 GO
 
 -- Lambda-backed procedure
