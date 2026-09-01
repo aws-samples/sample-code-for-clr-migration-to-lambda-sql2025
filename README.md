@@ -45,7 +45,7 @@ wrapper: the `[SqlFunction]`/`FillRow` shell becomes a Lambda handler.
 ├── sql/                       # Ordered T-SQL scripts (setup, failure, 2025 config, tests, cleanup)
 ├── sample-data/               # CSV test files with multi-line fields
 └── docs/                      # Additional documentation
-    ├── private-rds-networking.md  # NAT gateway setup + VPCe limitation findings
+    ├── private-rds-networking.md  # NAT gateway setup + private API (VPCe hostname) method
     └── api-resource-policy.md     # CLI steps to add NAT-IP resource policy
 ```
 
@@ -390,11 +390,20 @@ a **NAT gateway** and a `0.0.0.0/0` route on the RDS subnets. RDS stays private
 (egress-only). Without this, calls fail with `HRESULT: 0x80072ee7`
 (`NAME_NOT_RESOLVED`).
 
-A **private** API Gateway endpoint (interface VPC endpoint) does **not** work
-with this RDS feature — the managed engine does not resolve to the VPCe and its
-requests do not carry `aws:sourceVpce`, so a private API returns 403. Use a
-regional API and restrict it by the NAT egress IP instead. Full findings and the
-NAT setup: [Networking for private-subnet RDS](docs/private-rds-networking.md).
+A **private** API Gateway endpoint (interface VPC endpoint) **does** work with
+this RDS feature — but you must call the **VPC endpoint's own hostname**
+(`https://<vpce-id>-<hash>.execute-api.<region>.vpce.amazonaws.com/...`), not the
+standard `https://<api-id>.execute-api.<region>.amazonaws.com` hostname. The
+standard hostname fails from RDS: its request does not populate `aws:sourceVpce`,
+so a private API with a `StringEquals aws:sourceVpce` resource policy returns
+**403** (and if VPCe private DNS has not yet propagated to the RDS engine, it
+fails to resolve with `0x80072ee7`). Calling the VPCe hostname populates
+`aws:sourceVpce` and returns **200**. Because that hostname does not carry the
+API ID, supply it (and the API key, if required) via a `DATABASE SCOPED
+CREDENTIAL` with `IDENTITY = 'HTTPEndpointHeaders'`. A **regional** API
+restricted by the NAT egress IP remains a valid alternative if you prefer to keep
+traffic off PrivateLink. Full findings, the VPCe method, and the NAT setup:
+[Networking for private-subnet RDS](docs/private-rds-networking.md).
 
 To lock the regional API down to your NAT Elastic IP (recommended for private
 RDS, and usable for public RDS too), add an API Gateway resource policy:
