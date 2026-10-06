@@ -137,7 +137,7 @@ You can create the function either from the **AWS Management Console** or with t
 #### Option A — Console
 
 1. Lambda console → **Create function** → **Author from scratch**.
-2. Name `clr-csv-parser`, choose a .NET runtime, architecture `x86_64`, **Create function**.
+2. Name `clr-csv-parser`, choose a .NET runtime 10, architecture `x86_64`, **Create function**.
 3. **Code** tab → **Upload from** → **.zip file** → upload `CsvParserLambda.zip` → **Save**.
 4. **Runtime settings** → **Edit** → Handler:
    `CsvParserLambda::CsvParserLambda.Function::FunctionHandler`.
