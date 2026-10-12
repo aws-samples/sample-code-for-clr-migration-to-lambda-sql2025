@@ -1,7 +1,7 @@
 # Migrate SQL CLR assemblies to AWS Lambda on Amazon RDS for SQL Server 2025
 
 This repository is the hands-on companion to the AWS Database Blog post
-[Migrate CLR code to AWS Lambda when upgrading Amazon RDS for SQL Server to 2025](https://aws.amazon.com/blogs/database/addressing-clr-assembly-deprecation-in-amazon-rds-for-sql-server/](https://aws.amazon.com/blogs/database/migrate-clr-code-to-aws-lambda-when-upgrading-amazon-rds-for-sql-server-to-2025/),
+[Migrate CLR code to AWS Lambda when upgrading Amazon RDS for SQL Server to 2025](https://aws.amazon.com/blogs/database/migrate-clr-code-to-aws-lambda-when-upgrading-amazon-rds-for-sql-server-to-2025/),
 implementing **Option A** (external REST endpoint invocation) for CLR logic that
 has no native T-SQL equivalent. This repo has some sample code that shows how to replace an unsupported SQL Common Language Runtime
 (CLR) assembly on Amazon RDS for SQL Server with an AWS Lambda function invoked
